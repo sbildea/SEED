@@ -27,3 +27,8 @@ google_api*.txt
 openai_api.txt
 *tokens*.json
 .env
+
+# imagini generate de notebook-uri la rulare
+cursuri/05-clasificare/FittingLogR2.png
+cursuri/05-clasificare/Likelihood*.png
+cursuri/05-clasificare/diabetes.png

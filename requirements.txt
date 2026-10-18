@@ -1,6 +1,9 @@
 # Pachete care NU sunt preinstalate în Google Colab (restul: pandas, numpy, scikit-learn,
 # matplotlib, seaborn, plotly, statsmodels, xgboost, openpyxl etc. există deja în Colab).
 # Instalate automat de celula „Configurare curs".
+# scikit-learn >= 1.8: notebook-urile aleg tipul regularizării cu l1_ratio (fără „penalty”);
+# dacă versiunea din Colab este mai veche, pip o actualizează.
+scikit-learn>=1.8
 pygam
 dmba
 optuna
