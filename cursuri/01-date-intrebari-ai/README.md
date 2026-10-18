@@ -7,24 +7,24 @@
 **Curs**
 
 - [curs-01-introducere](curs-01-introducere.pdf) (PDF)
-- [curs-01b-prompting-1-principii-si-tactici](curs-01b-prompting-1-principii-si-tactici.ipynb) · [Open in Colab](https://colab.research.google.com/github/prof/SEED/blob/main/cursuri/01-date-intrebari-ai/curs-01b-prompting-1-principii-si-tactici.ipynb)
-- [curs-01b-prompting-2-iterare](curs-01b-prompting-2-iterare.ipynb) · [Open in Colab](https://colab.research.google.com/github/prof/SEED/blob/main/cursuri/01-date-intrebari-ai/curs-01b-prompting-2-iterare.ipynb)
-- [curs-01b-prompting-3-rezumare](curs-01b-prompting-3-rezumare.ipynb) · [Open in Colab](https://colab.research.google.com/github/prof/SEED/blob/main/cursuri/01-date-intrebari-ai/curs-01b-prompting-3-rezumare.ipynb)
-- [curs-01b-prompting-4-inferare](curs-01b-prompting-4-inferare.ipynb) · [Open in Colab](https://colab.research.google.com/github/prof/SEED/blob/main/cursuri/01-date-intrebari-ai/curs-01b-prompting-4-inferare.ipynb)
-- [curs-01b-prompting-5-transformare](curs-01b-prompting-5-transformare.ipynb) · [Open in Colab](https://colab.research.google.com/github/prof/SEED/blob/main/cursuri/01-date-intrebari-ai/curs-01b-prompting-5-transformare.ipynb)
+- [curs-01b-prompting-1-principii-si-tactici](curs-01b-prompting-1-principii-si-tactici.ipynb) · [Open in Colab](https://colab.research.google.com/github/sbildea/SEED/blob/main/cursuri/01-date-intrebari-ai/curs-01b-prompting-1-principii-si-tactici.ipynb)
+- [curs-01b-prompting-2-iterare](curs-01b-prompting-2-iterare.ipynb) · [Open in Colab](https://colab.research.google.com/github/sbildea/SEED/blob/main/cursuri/01-date-intrebari-ai/curs-01b-prompting-2-iterare.ipynb)
+- [curs-01b-prompting-3-rezumare](curs-01b-prompting-3-rezumare.ipynb) · [Open in Colab](https://colab.research.google.com/github/sbildea/SEED/blob/main/cursuri/01-date-intrebari-ai/curs-01b-prompting-3-rezumare.ipynb)
+- [curs-01b-prompting-4-inferare](curs-01b-prompting-4-inferare.ipynb) · [Open in Colab](https://colab.research.google.com/github/sbildea/SEED/blob/main/cursuri/01-date-intrebari-ai/curs-01b-prompting-4-inferare.ipynb)
+- [curs-01b-prompting-5-transformare](curs-01b-prompting-5-transformare.ipynb) · [Open in Colab](https://colab.research.google.com/github/sbildea/SEED/blob/main/cursuri/01-date-intrebari-ai/curs-01b-prompting-5-transformare.ipynb)
 
 **Seminar**
 
-- [seminar-01-primul-notebook-cu-ai](seminar-01-primul-notebook-cu-ai.ipynb) · [Open in Colab](https://colab.research.google.com/github/prof/SEED/blob/main/cursuri/01-date-intrebari-ai/seminar-01-primul-notebook-cu-ai.ipynb)
+- [seminar-01-primul-notebook-cu-ai](seminar-01-primul-notebook-cu-ai.ipynb) · [Open in Colab](https://colab.research.google.com/github/sbildea/SEED/blob/main/cursuri/01-date-intrebari-ai/seminar-01-primul-notebook-cu-ai.ipynb)
 
 **Temă**
 
-- [tema-01-exercitii-python](tema-01-exercitii-python.ipynb) · [Open in Colab](https://colab.research.google.com/github/prof/SEED/blob/main/cursuri/01-date-intrebari-ai/tema-01-exercitii-python.ipynb)
+- [tema-01-exercitii-python](tema-01-exercitii-python.ipynb) · [Open in Colab](https://colab.research.google.com/github/sbildea/SEED/blob/main/cursuri/01-date-intrebari-ai/tema-01-exercitii-python.ipynb)
 
 **Extra (referință)** — materiale din anii anteriori, cu cod complet, pentru cine vrea să aprofundeze
 
 - [extra-01-instructiuni-anaconda](extra-01-instructiuni-anaconda.pdf) (PDF)
-- [extra-01-recapitulare-python](extra-01-recapitulare-python.ipynb) · [Open in Colab](https://colab.research.google.com/github/prof/SEED/blob/main/cursuri/01-date-intrebari-ai/extra-01-recapitulare-python.ipynb)
+- [extra-01-recapitulare-python](extra-01-recapitulare-python.ipynb) · [Open in Colab](https://colab.research.google.com/github/sbildea/SEED/blob/main/cursuri/01-date-intrebari-ai/extra-01-recapitulare-python.ipynb)
 
 ## Puntea curs → seminar
 

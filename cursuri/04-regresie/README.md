@@ -9,17 +9,17 @@
 - [curs-04-regresori-liniari](curs-04-regresori-liniari.pdf) (PDF)
 - [curs-04-regularizare-lasso-ridge](curs-04-regularizare-lasso-ridge.pdf) (PDF)
 - [curs-04-regularizare](curs-04-regularizare.pdf) (PDF)
-- [curs-04a-regresie-uni-multivariata](curs-04a-regresie-uni-multivariata.ipynb) · [Open in Colab](https://colab.research.google.com/github/prof/SEED/blob/main/cursuri/04-regresie/curs-04a-regresie-uni-multivariata.ipynb)
-- [curs-04b-regularizarea-regresiei](curs-04b-regularizarea-regresiei.ipynb) · [Open in Colab](https://colab.research.google.com/github/prof/SEED/blob/main/cursuri/04-regresie/curs-04b-regularizarea-regresiei.ipynb)
+- [curs-04a-regresie-uni-multivariata](curs-04a-regresie-uni-multivariata.ipynb) · [Open in Colab](https://colab.research.google.com/github/sbildea/SEED/blob/main/cursuri/04-regresie/curs-04a-regresie-uni-multivariata.ipynb)
+- [curs-04b-regularizarea-regresiei](curs-04b-regularizarea-regresiei.ipynb) · [Open in Colab](https://colab.research.google.com/github/sbildea/SEED/blob/main/cursuri/04-regresie/curs-04b-regularizarea-regresiei.ipynb)
 
 **Seminar**
 
-- [seminar-04-regresie](seminar-04-regresie.ipynb) · [Open in Colab](https://colab.research.google.com/github/prof/SEED/blob/main/cursuri/04-regresie/seminar-04-regresie.ipynb)
+- [seminar-04-regresie](seminar-04-regresie.ipynb) · [Open in Colab](https://colab.research.google.com/github/sbildea/SEED/blob/main/cursuri/04-regresie/seminar-04-regresie.ipynb)
 
 **Extra (referință)** — materiale din anii anteriori, cu cod complet, pentru cine vrea să aprofundeze
 
-- [extra-04-exercitii-regresie-boston](extra-04-exercitii-regresie-boston.ipynb) · [Open in Colab](https://colab.research.google.com/github/prof/SEED/blob/main/cursuri/04-regresie/extra-04-exercitii-regresie-boston.ipynb)
-- [extra-04-regresori-ml](extra-04-regresori-ml.ipynb) · [Open in Colab](https://colab.research.google.com/github/prof/SEED/blob/main/cursuri/04-regresie/extra-04-regresori-ml.ipynb)
+- [extra-04-exercitii-regresie-boston](extra-04-exercitii-regresie-boston.ipynb) · [Open in Colab](https://colab.research.google.com/github/sbildea/SEED/blob/main/cursuri/04-regresie/extra-04-exercitii-regresie-boston.ipynb)
+- [extra-04-regresori-ml](extra-04-regresori-ml.ipynb) · [Open in Colab](https://colab.research.google.com/github/sbildea/SEED/blob/main/cursuri/04-regresie/extra-04-regresori-ml.ipynb)
 
 ## Puntea curs → seminar
 

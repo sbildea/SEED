@@ -4,7 +4,7 @@
 
 **Seminar**
 
-- [seminar-07-de-la-intrebare-la-decizie](seminar-07-de-la-intrebare-la-decizie.ipynb) · [Open in Colab](https://colab.research.google.com/github/prof/SEED/blob/main/cursuri/07-proiect/seminar-07-de-la-intrebare-la-decizie.ipynb)
+- [seminar-07-de-la-intrebare-la-decizie](seminar-07-de-la-intrebare-la-decizie.ipynb) · [Open in Colab](https://colab.research.google.com/github/sbildea/SEED/blob/main/cursuri/07-proiect/seminar-07-de-la-intrebare-la-decizie.ipynb)
 
 **Descrierea proiectelor:** [descriere-proiecte.ipynb](descriere-proiecte.ipynb)
 

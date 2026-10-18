@@ -4,21 +4,21 @@
 
 **Curs**
 
-- [curs-03a-pca-clusterizare](curs-03a-pca-clusterizare.ipynb) · [Open in Colab](https://colab.research.google.com/github/prof/SEED/blob/main/cursuri/03-invatare-nesupervizata/curs-03a-pca-clusterizare.ipynb)
-- [curs-03b-asociere-recomandari](curs-03b-asociere-recomandari.ipynb) · [Open in Colab](https://colab.research.google.com/github/prof/SEED/blob/main/cursuri/03-invatare-nesupervizata/curs-03b-asociere-recomandari.ipynb)
+- [curs-03a-pca-clusterizare](curs-03a-pca-clusterizare.ipynb) · [Open in Colab](https://colab.research.google.com/github/sbildea/SEED/blob/main/cursuri/03-invatare-nesupervizata/curs-03a-pca-clusterizare.ipynb)
+- [curs-03b-asociere-recomandari](curs-03b-asociere-recomandari.ipynb) · [Open in Colab](https://colab.research.google.com/github/sbildea/SEED/blob/main/cursuri/03-invatare-nesupervizata/curs-03b-asociere-recomandari.ipynb)
 
 **Seminar**
 
-- [seminar-03-invatare-nesupervizata](seminar-03-invatare-nesupervizata.ipynb) · [Open in Colab](https://colab.research.google.com/github/prof/SEED/blob/main/cursuri/03-invatare-nesupervizata/seminar-03-invatare-nesupervizata.ipynb)
+- [seminar-03-invatare-nesupervizata](seminar-03-invatare-nesupervizata.ipynb) · [Open in Colab](https://colab.research.google.com/github/sbildea/SEED/blob/main/cursuri/03-invatare-nesupervizata/seminar-03-invatare-nesupervizata.ipynb)
 
 **Temă**
 
-- [tema-03-invatare-nesupervizata](tema-03-invatare-nesupervizata.ipynb) · [Open in Colab](https://colab.research.google.com/github/prof/SEED/blob/main/cursuri/03-invatare-nesupervizata/tema-03-invatare-nesupervizata.ipynb)
+- [tema-03-invatare-nesupervizata](tema-03-invatare-nesupervizata.ipynb) · [Open in Colab](https://colab.research.google.com/github/sbildea/SEED/blob/main/cursuri/03-invatare-nesupervizata/tema-03-invatare-nesupervizata.ipynb)
 
 **Extra (referință)** — materiale din anii anteriori, cu cod complet, pentru cine vrea să aprofundeze
 
-- [extra-03-asociere-recomandari](extra-03-asociere-recomandari.ipynb) · [Open in Colab](https://colab.research.google.com/github/prof/SEED/blob/main/cursuri/03-invatare-nesupervizata/extra-03-asociere-recomandari.ipynb)
-- [extra-03-pca-clusterizare](extra-03-pca-clusterizare.ipynb) · [Open in Colab](https://colab.research.google.com/github/prof/SEED/blob/main/cursuri/03-invatare-nesupervizata/extra-03-pca-clusterizare.ipynb)
+- [extra-03-asociere-recomandari](extra-03-asociere-recomandari.ipynb) · [Open in Colab](https://colab.research.google.com/github/sbildea/SEED/blob/main/cursuri/03-invatare-nesupervizata/extra-03-asociere-recomandari.ipynb)
+- [extra-03-pca-clusterizare](extra-03-pca-clusterizare.ipynb) · [Open in Colab](https://colab.research.google.com/github/sbildea/SEED/blob/main/cursuri/03-invatare-nesupervizata/extra-03-pca-clusterizare.ipynb)
 
 ## Puntea curs → seminar
 

@@ -4,23 +4,23 @@
 
 **Curs**
 
-- [curs-05a-regresie-logistica](curs-05a-regresie-logistica.ipynb) · [Open in Colab](https://colab.research.google.com/github/prof/SEED/blob/main/cursuri/05-clasificare/curs-05a-regresie-logistica.ipynb)
-- [curs-05b-clasificare](curs-05b-clasificare.ipynb) · [Open in Colab](https://colab.research.google.com/github/prof/SEED/blob/main/cursuri/05-clasificare/curs-05b-clasificare.ipynb)
-- [curs-05c-svm](curs-05c-svm.ipynb) · [Open in Colab](https://colab.research.google.com/github/prof/SEED/blob/main/cursuri/05-clasificare/curs-05c-svm.ipynb)
+- [curs-05a-regresie-logistica](curs-05a-regresie-logistica.ipynb) · [Open in Colab](https://colab.research.google.com/github/sbildea/SEED/blob/main/cursuri/05-clasificare/curs-05a-regresie-logistica.ipynb)
+- [curs-05b-clasificare](curs-05b-clasificare.ipynb) · [Open in Colab](https://colab.research.google.com/github/sbildea/SEED/blob/main/cursuri/05-clasificare/curs-05b-clasificare.ipynb)
+- [curs-05c-svm](curs-05c-svm.ipynb) · [Open in Colab](https://colab.research.google.com/github/sbildea/SEED/blob/main/cursuri/05-clasificare/curs-05c-svm.ipynb)
 - [curs-05c-svm](curs-05c-svm.pdf) (PDF)
 
 **Seminar**
 
-- [seminar-05-clasificare](seminar-05-clasificare.ipynb) · [Open in Colab](https://colab.research.google.com/github/prof/SEED/blob/main/cursuri/05-clasificare/seminar-05-clasificare.ipynb)
+- [seminar-05-clasificare](seminar-05-clasificare.ipynb) · [Open in Colab](https://colab.research.google.com/github/sbildea/SEED/blob/main/cursuri/05-clasificare/seminar-05-clasificare.ipynb)
 
 **Temă**
 
-- [tema-05-clasificatori](tema-05-clasificatori.ipynb) · [Open in Colab](https://colab.research.google.com/github/prof/SEED/blob/main/cursuri/05-clasificare/tema-05-clasificatori.ipynb)
+- [tema-05-clasificatori](tema-05-clasificatori.ipynb) · [Open in Colab](https://colab.research.google.com/github/sbildea/SEED/blob/main/cursuri/05-clasificare/tema-05-clasificatori.ipynb)
 
 **Extra (referință)** — materiale din anii anteriori, cu cod complet, pentru cine vrea să aprofundeze
 
-- [extra-05-exercitii-regresie-logistica](extra-05-exercitii-regresie-logistica.ipynb) · [Open in Colab](https://colab.research.google.com/github/prof/SEED/blob/main/cursuri/05-clasificare/extra-05-exercitii-regresie-logistica.ipynb)
-- [extra-05-tuning-clasic](extra-05-tuning-clasic.ipynb) · [Open in Colab](https://colab.research.google.com/github/prof/SEED/blob/main/cursuri/05-clasificare/extra-05-tuning-clasic.ipynb)
+- [extra-05-exercitii-regresie-logistica](extra-05-exercitii-regresie-logistica.ipynb) · [Open in Colab](https://colab.research.google.com/github/sbildea/SEED/blob/main/cursuri/05-clasificare/extra-05-exercitii-regresie-logistica.ipynb)
+- [extra-05-tuning-clasic](extra-05-tuning-clasic.ipynb) · [Open in Colab](https://colab.research.google.com/github/sbildea/SEED/blob/main/cursuri/05-clasificare/extra-05-tuning-clasic.ipynb)
 
 ## Puntea curs → seminar
 

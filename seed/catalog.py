@@ -5,7 +5,7 @@ Fiecare set este o arhivă ZIP publicată ca fișier atașat (asset) la release-
 astfel încât `incarca("lab-set5")[1]` să fie mereu același tabel.
 """
 
-GITHUB_USER = "prof"
+GITHUB_USER = "sbildea"
 REPO = "SEED"
 TAG_DATE = "date-v1"
 

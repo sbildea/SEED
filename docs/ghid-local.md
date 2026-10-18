@@ -26,7 +26,7 @@ Pregătirea durează 15-20 de minute. Fă-o acasă, înainte de primul laborator
 **Varianta A, cu Git (recomandată, actualizările se iau cu o comandă):**
 
 ```
-git clone https://github.com/prof/SEED.git
+git clone https://github.com/sbildea/SEED.git
 ```
 
 (Git se instalează de la <https://git-scm.com/downloads>; sau folosește GitHub Desktop: File → Clone repository.)
