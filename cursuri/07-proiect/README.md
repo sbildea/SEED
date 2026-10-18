@@ -2,6 +2,15 @@
 
 2 ore de curs + 2 ore de seminar. La curs înțelegem conceptele; la seminar le aplicăm lucrând cu un asistent AI.
 
+**Problema de business.** Clientul vostru este setul de date din proiect: *„Ce ne spun datele și ce decizie ar trebui să luăm?”*
+
+- **Rolul vostru:** analist, consultant și consultant de implementare: duceți singuri tot fluxul, de la întrebare la recomandare.
+- **Ce predați la final:** notebook-ul proiectului (rulează complet de la zero) și un raport scurt pentru un manager, cu recomandarea, dovezile și limitele analizei.
+
+**Curs**
+
+- [curs-07-de-la-analiza-la-recomandare](curs-07-de-la-analiza-la-recomandare.ipynb) · [Open in Colab](https://colab.research.google.com/github/sbildea/SEED/blob/main/cursuri/07-proiect/curs-07-de-la-analiza-la-recomandare.ipynb)
+
 **Seminar**
 
 - [seminar-07-de-la-intrebare-la-decizie](seminar-07-de-la-intrebare-la-decizie.ipynb) · [Open in Colab](https://colab.research.google.com/github/sbildea/SEED/blob/main/cursuri/07-proiect/seminar-07-de-la-intrebare-la-decizie.ipynb)

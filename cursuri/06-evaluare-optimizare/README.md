@@ -2,6 +2,15 @@
 
 2 ore de curs + 2 ore de seminar. La curs înțelegem conceptele; la seminar le aplicăm lucrând cu un asistent AI.
 
+**Problema de business.** Managerul de retenție: *„Fiecare ofertă ne costă bani. Câți clienți să contactăm, cât câștigăm și de unde știu că va funcționa și luna viitoare?”*
+
+- **Rolul vostru:** consultant: alegeți metrica din costurile clientului, evaluați corect și transformați rezultatul în bani.
+- **Ce predați la final:** pragul de decizie recomandat și profitul estimat pe date noi, cu ipotezele folosite, într-un rezumat pentru manager.
+
+**Curs**
+
+- [curs-06-evaluare-optimizare](curs-06-evaluare-optimizare.ipynb) · [Open in Colab](https://colab.research.google.com/github/sbildea/SEED/blob/main/cursuri/06-evaluare-optimizare/curs-06-evaluare-optimizare.ipynb)
+
 **Seminar**
 
 - [seminar-06-validare-incrucisata-optuna](seminar-06-validare-incrucisata-optuna.ipynb) · [Open in Colab](https://colab.research.google.com/github/sbildea/SEED/blob/main/cursuri/06-evaluare-optimizare/seminar-06-validare-incrucisata-optuna.ipynb)
