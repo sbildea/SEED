@@ -2,6 +2,11 @@
 
 2 ore de curs + 2 ore de seminar. La curs înțelegem conceptele; la seminar le aplicăm lucrând cu un asistent AI.
 
+**Problema de business.** Directorul de resurse umane: *„Ce tipuri de angajați avem, ca să adaptăm programele de retenție?”* și managerul magazinului: *„Ce produse se cumpără împreună?”*
+
+- **Rolul vostru:** consultant: găsiți structură în date fără o țintă dată și o explicați pe înțelesul clientului.
+- **Ce predați la final:** descrierea segmentelor de angajați din `lab-set2` (câte, cum arată, ce propuneți pentru fiecare) și trei reguli de asociere din `lab-set4` care pot deveni acțiuni de marketing.
+
 **Curs**
 
 - [curs-03a-pca-clusterizare](curs-03a-pca-clusterizare.ipynb) · [Open in Colab](https://colab.research.google.com/github/sbildea/SEED/blob/main/cursuri/03-invatare-nesupervizata/curs-03a-pca-clusterizare.ipynb)

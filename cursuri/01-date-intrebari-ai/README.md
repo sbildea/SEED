@@ -2,6 +2,11 @@
 
 2 ore de curs + 2 ore de seminar. La curs înțelegem conceptele; la seminar le aplicăm lucrând cu un asistent AI.
 
+**Problema de business.** Directorul comercial al unui operator de telecomunicații: *„Avem o grămadă de date despre clienți. Ce putem afla din ele?”*
+
+- **Rolul vostru:** analist de date: transformați o cerere vagă în întrebări la care datele pot răspunde.
+- **Ce predați la final:** trei întrebări analitice despre clienții Telco (`lab-set1`), fiecare cu coloanele care îi răspund și decizia pe care o susține.
+
 **Structura cursului (2h):** 1h concepte despre date și întrebări (slide-urile de mai jos) + 1h curs intensiv de *prompting* (notebook-urile `curs-01b-prompting-1` … `5`, care folosesc Gemini cu o cheie API personală gratuită) și slide-urile despre programarea asistată de AI (de adăugat ca `curs-01c-programare-asistata-ai.pdf`).
 
 **Curs**

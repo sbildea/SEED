@@ -13,27 +13,25 @@
 
 Data Science - știința (explorării și exploatării) datelor a devenit o materie de studiu în toate programele care au curiculă informatică. Diversele aspecte ale acestei științe rezonează diferit cu diferite audiențe. În contextul actual se adeverește tot mai mult sintagma „datele sunt noul petrol”.
 
-&emsp;Problemele pe care le vom aborda din perspectiva soluțiilor date de modele de învățare automată sunt cele de clasificare, regresie, pred/ presupune date istorice cu observații ce conțin măsurători numerice asupra datelor ce trebuie estimate prin modelare (date țintă, variabila dependentă)  împreună cu caracteristici/atribute/variabile explicative/variabile independente/covariate ce ajută modelul în asocierea unui context relativ la datele țintă. Un exemplu de <b>învățare cu supervizare</b> ar fi prognoza temperaturii care se bazează pe istoric cu atribute cum ar fi cele legate de vânt, umiditate, perioadă a anului etc.  
+&emsp;Problemele pe care le vom aborda din perspectiva soluțiilor date de modele de învățare automată sunt cele de clasificare și regresie. Acestea presupun date istorice cu observații ce conțin măsurători numerice asupra datelor ce trebuie estimate prin modelare (date țintă, variabila dependentă)  împreună cu caracteristici/atribute/variabile explicative/variabile independente/covariate ce ajută modelul în asocierea unui context relativ la datele țintă. Un exemplu de <b>învățare cu supervizare</b> ar fi prognoza temperaturii care se bazează pe istoric cu atribute cum ar fi cele legate de vânt, umiditate, perioadă a anului etc.  
 
 &emsp;<b>Învățarea fără supervizare</b> presupune o sarcină de optimizare fără a cunoaște a priori soluții ale problemei. Un exemplu ar fi o clasificare a unui nor de puncte folosind K medii - `K-means clustering`. În acest caz parametrul K trebuie testat, nu se cunoaște numărul de clase căutat.
 
-&emsp;În măsura în care timpul ne va permite, vom discuta și despre modele mai sofisticate cum ar fi `motoarele de generat recomandări`, o introducere în lucrul cu `rețele neuronale`pentru clasificat imagini, aplicații `NLP` (poate și chatGPT prompting), procesare de semnale. 
+&emsp;Cursul se adresează viitorilor analiști de date, consultanți, consultanți de implementare și specialiști în știința datelor aplicată. Accentul cade pe **concepte** și pe **rezolvarea de probleme**: la curs înțelegem metodele și când se folosesc, iar la seminar le aplicăm pe date reale, formulând cerințele în limbaj natural pentru un asistent AI care scrie codul. Nu este nevoie să știți să programați în Python; este nevoie să știți ce cereți, să verificați ce primiți și să explicați rezultatul cuiva care nu știe statistică.
 
-&emsp;Cursul este structurat astfel:
-- Introducere în știința explorării și exploatării datelor - 1 curs
-    - Laborator: Recapitulare elemente de bază în limbajul Python
-- Analiza Exploratorie a Datelor - 2 cursuri / 2 laboratoare
-    - Laborator: Analiza datelor folosind limbajul Python
-- Metode de învățare fără supervizare
-    - Reducerea dimensiunilor - 1 curs / 1 laborator
-    - Clusterizare - 1 curs / 1 laborator
-    - Evaluarea rezultatelor învățării - 1 curs / 1 latorator
-- Metode de învățare cu supervizare  
-    - Clasificare - 3 cursuri / 3 laboratoare
-    - Regresie - 3 cursuri / 3 laboratoare
-- Serii temporale: introducere cu aplicații - 1 curs / 1 laborator
-- Recapitulare - 1 curs 
-- Ultimul laborator: exmaninare cunoștințe practice acumulate
+&emsp;Cursul are **7 module**, câte unul la două săptămâni: **2 ore de curs + 2 ore de seminar**. Fiecare modul pornește de la o problemă de business (un client cu o întrebare), iar seminarul continuă direct cursul, prin „puntea curs → seminar”: conceptele cheie, cererea către asistentul AI și ce trebuie verificat.
+
+| Modul | Tema | Problema de business |
+|---|---|---|
+| 1 | Date, întrebări și lucrul cu AI (inclusiv bazele formulării cererilor, *prompting*) | Ce putem afla din datele despre clienți? |
+| 2 | Analiza exploratorie și vizualizarea datelor | Ce se vinde, cui și când? Putem avea încredere în cifre? |
+| 3 | Învățare nesupervizată: PCA, clusterizare, reguli de asociere | Ce tipuri de clienți / angajați avem? Ce produse se cumpără împreună? |
+| 4 | Regresie: modele liniare, supraînvățare, regularizare | Cât valorează o locuință și ce îi crește prețul? |
+| 5 | Clasificare: regresie logistică, arbori, ansambluri, SVM | Care clienți urmează să plece? |
+| 6 | Evaluare și optimizare: metrici, validare încrucișată, Optuna | Câți clienți contactăm și cât câștigăm? |
+| 7 | Proiect: de la analiză la recomandare | Ce decizie recomandăm clientului nostru? |
+
+Materialele fiecărui modul sunt în folderul [`cursuri`](../cursuri) al repository-ului.
 
 ## Administrative
 
@@ -44,13 +42,13 @@ Seturile de date vor fi individuale și vor defini proiectele cu care vă veți 
 
 - Lucrul practic se face cu ajutorul unui asistent AI: voi formulați cerințele pe baza conceptelor din curs, asistentul scrie codul, voi verificați și interpretați rezultatele. Vezi [ghidul de programare asistată de AI](ghid-programare-asistata-ai.md). Notebook-urile se pot rula în [Google Colab](ghid-colab.md) sau [local, pe calculatorul vostru](ghid-local.md).
 
-- După fiecare laborator va exista o temă aplicativă fie generică, fie aplicabilă pe setul de date individual. Suplimentar vor exista și întrebări pentru fixarea cunoștințelor.
+- După seminarii va exista o temă aplicativă fie generică, fie aplicabilă pe setul de date individual. Suplimentar vor exista și întrebări pentru fixarea cunoștințelor.
 
 - Va exista un parțial cu examinare orală prin care veți demonstra cunoștințele acumulate despre analiza exploratorie a datelor pe un set de date invidividual, personalizat. Parțialul constă într-un proiect individual pentru care va exista o documentare prealabilă a cerințelor și a modului de notare.
 
 - Examenul final va fi oral și va conține întrebări legate de:
 
-    - cunostințele de laborator
+    - cunoștințele de la seminar
     - proiectul pe set de date individual, <b>depus până în ultima zi a semestrului, înainte de începerea sesiunii</b>
 
 - Pentru situația în care nu puteți ajunge la curs am să ofer posibilitatea participării online, am făcut-o și în trecut. Prezența online se cuantifică doar dacă este însoțită de activitate care s-o reflecte.

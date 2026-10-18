@@ -2,6 +2,11 @@
 
 2 ore de curs + 2 ore de seminar. La curs înțelegem conceptele; la seminar le aplicăm lucrând cu un asistent AI.
 
+**Problema de business.** Managerul unui magazin online: *„Ce se vinde, cui și când? Și pot avea încredere în cifrele din sistem?”*
+
+- **Rolul vostru:** analist de date: explorați datele, găsiți problemele de calitate și arătați tiparele importante.
+- **Ce predați la final:** un raport de o pagină pe tranzacțiile din `lab-set4`: trei grafice, fiecare cu un titlu care spune concluzia, plus lista problemelor găsite în date.
+
 **Curs**
 
 - [curs-02-analiza-exploratorie](curs-02-analiza-exploratorie.pdf) (PDF)

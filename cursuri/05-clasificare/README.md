@@ -2,6 +2,11 @@
 
 2 ore de curs + 2 ore de seminar. La curs înțelegem conceptele; la seminar le aplicăm lucrând cu un asistent AI.
 
+**Problema de business.** Operatorul de telecomunicații: *„Care clienți urmează să plece?”*
+
+- **Rolul vostru:** analist de date: comparați mai multe modele de clasificare și explicați ce fel de greșeli face fiecare.
+- **Ce predați la final:** comparația a cel puțin trei modele pe `lab-set1`, cu matricea de confuzie și o recomandare argumentată pentru unul dintre ele.
+
 **Curs**
 
 - [curs-05a-regresie-logistica](curs-05a-regresie-logistica.ipynb) · [Open in Colab](https://colab.research.google.com/github/sbildea/SEED/blob/main/cursuri/05-clasificare/curs-05a-regresie-logistica.ipynb)

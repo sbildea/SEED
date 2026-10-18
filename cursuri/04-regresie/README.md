@@ -2,6 +2,11 @@
 
 2 ore de curs + 2 ore de seminar. La curs înțelegem conceptele; la seminar le aplicăm lucrând cu un asistent AI.
 
+**Problema de business.** O agenție imobiliară: *„Cât să cerem pe o casă și ce anume crește prețul?”*
+
+- **Rolul vostru:** analist de date: construiți un model de estimare și spuneți cât de mult poate greși.
+- **Ce predați la final:** estimarea prețului pentru locuințele din `lab-set6`, cu eroarea medie exprimată în dolari și principalii factori care influențează prețul.
+
 **Curs**
 
 - [curs-04-bias-variance](curs-04-bias-variance.pdf) (PDF)
