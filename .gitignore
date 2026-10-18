@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# rezultate generate de notebook-uri
+*.sqlite3
+*.joblib
+*.db
+test.html
+LogBeta1.gif
+.seed_date/
+
+# sistem de operare / Office
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
+
+# chei API: nu se publică niciodată
+google_api*.txt
+*api_key*.txt
+openai_api.txt
+*tokens*.json
+.env

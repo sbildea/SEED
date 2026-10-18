@@ -1,0 +1,152 @@
+car,date_only,Daily_Outcome,Daily_Outcome_Idx,Likelihood_Score,Over Heat Event,rows_per_car_day,Belief,Action_level,Notes
+2221138,2/24/2019,Overheat in more than 14 days,2,92.70302995,,596,Weak,1,The change closest to date happened at most 2 days ago AND a reversal happened last week.
+2221138,2/23/2019,"Overheat in [7, 14] days",1,79.39310601,,1053,Uncofirmed,0,Number of records last week (3) not enough for recommendation.
+2221138,2/22/2019,Overheat in less than 7 days,0,90.54694963,,633,Uncofirmed,0,Number of records last week (3) not enough for recommendation.
+2221138,2/20/2019,Overheat in more than 14 days,2,99.56156391,,436,Uncofirmed,0,Number of records last week (2) not enough for recommendation.
+2221138,2/19/2019,Overheat in more than 14 days,2,100,,18,Uncofirmed,0,Number of records last week (2) not enough for recommendation.
+2221138,2/15/2019,"Overheat in [7, 14] days",1,99.73373593,,18,Uncofirmed,0,Number of records last week (2) not enough for recommendation.
+2221138,2/12/2019,Overheat in less than 7 days,0,99.91171163,,917,Uncofirmed,0,Number of records last week (2) not enough for recommendation.
+2221138,2/11/2019,Overheat in less than 7 days,0,74.83613748,,702,Uncofirmed,0,Number of records last week (1) not enough for recommendation.
+2221138,2/6/2019,Overheat in less than 7 days,0,99.94131278,,539,Uncofirmed,0,Number of records last week (0) not enough for recommendation.
+2221138,1/24/2019,Overheat in less than 7 days,0,99.79090791,1/24/2019 10:51,730,Uncofirmed,0,Number of records last week (2) not enough for recommendation.
+2221138,1/22/2019,Overheat in less than 7 days,0,99.87384589,1/24/2019 10:51,733,Uncofirmed,0,Number of records last week (3) not enough for recommendation.
+2221138,1/17/2019,"Overheat in [7, 14] days",1,99.98353473,1/24/2019 10:51,1274,Strong but overdue,2,No mixed predictions in history. More than 7 days of constant prediction.
+2221138,1/16/2019,"Overheat in [7, 14] days",1,100,1/24/2019 10:51,11,Strong but overdue,2,No mixed predictions in history. More than 7 days of constant prediction.
+2221138,1/15/2019,"Overheat in [7, 14] days",1,99.98758265,1/24/2019 10:51,1080,Strong but overdue,2,No mixed predictions in history. More than 7 days of constant prediction.
+2221138,1/14/2019,"Overheat in [7, 14] days",1,100,1/24/2019 10:51,29,Strong but overdue,2,No mixed predictions in history. More than 7 days of constant prediction.
+2221138,1/12/2019,"Overheat in [7, 14] days",1,99.9868275,1/24/2019 10:51,468,Uncofirmed,0,Number of records last week (3) not enough for recommendation.
+2221138,1/11/2019,"Overheat in [7, 14] days",1,99.995297,1/24/2019 10:51,191,Uncofirmed,0,Number of records last week (3) not enough for recommendation.
+2221138,1/10/2019,"Overheat in [7, 14] days",1,99.99101631,1/24/2019 10:51,966,Uncofirmed,0,Number of records last week (2) not enough for recommendation.
+2221138,1/7/2019,Overheat in more than 14 days,2,100,1/24/2019 10:51,82,Uncofirmed,0,Number of records last week (2) not enough for recommendation.
+2221138,1/4/2019,Overheat in more than 14 days,2,99.84990183,1/24/2019 10:51,305,Uncofirmed,0,Number of records last week (1) not enough for recommendation.
+2221138,1/2/2019,Overheat in more than 14 days,2,99.49149975,1/24/2019 10:51,439,Unconfirmed,0,Total days in history = 0. 
+2221158,2/4/2019,Overheat in less than 7 days,0,100,,944,Uncofirmed,0,Number of records last week (1) not enough for recommendation.
+2221158,2/3/2019,Overheat in less than 7 days,0,100,,945,Uncofirmed,0,Number of records last week (1) not enough for recommendation.
+2221158,1/27/2019,Overheat in less than 7 days,0,100,,19,Strong but overdue,2,No mixed predictions in history. More than 7 days of constant prediction.
+2221158,1/26/2019,Overheat in less than 7 days,0,100,,23,Strong but overdue,2,No mixed predictions in history. More than 7 days of constant prediction.
+2221158,1/25/2019,Overheat in less than 7 days,0,100,,904,Uncofirmed,0,Number of records last week (3) not enough for recommendation.
+2221158,1/24/2019,Overheat in less than 7 days,0,100,,681,Uncofirmed,0,Number of records last week (3) not enough for recommendation.
+2221158,1/23/2019,Overheat in less than 7 days,0,100,,1018,Uncofirmed,0,Number of records last week (2) not enough for recommendation.
+2221158,1/21/2019,Overheat in less than 7 days,0,100,,610,Uncofirmed,0,Number of records last week (3) not enough for recommendation.
+2221158,1/17/2019,Overheat in less than 7 days,0,100,,789,Strong but overdue,2,No mixed predictions in history. More than 7 days of constant prediction.
+2221158,1/15/2019,Overheat in less than 7 days,0,100,,346,Strong but overdue,2,No mixed predictions in history. More than 7 days of constant prediction.
+2221158,1/14/2019,Overheat in less than 7 days,0,100,,404,Uncofirmed,0,Number of records last week (3) not enough for recommendation.
+2221158,1/13/2019,Overheat in less than 7 days,0,100,,287,Uncofirmed,0,Number of records last week (3) not enough for recommendation.
+2221158,1/12/2019,Overheat in less than 7 days,0,100,,393,Uncofirmed,0,Number of records last week (3) not enough for recommendation.
+2221158,1/10/2019,Overheat in less than 7 days,0,100,,753,Uncofirmed,0,Number of records last week (2) not enough for recommendation.
+2221158,1/6/2019,Overheat in less than 7 days,0,100,1/6/2019 0:54,182,Uncofirmed,0,Number of records last week (2) not enough for recommendation.
+2221158,1/5/2019,Overheat in less than 7 days,0,100,1/5/2019 15:29,770,Uncofirmed,0,Number of records last week (1) not enough for recommendation.
+2221158,1/2/2019,Overheat in less than 7 days,0,100,1/5/2019 15:29,513,Unconfirmed,0,Total days in history = 0. 
+2221189,2/22/2019,Overheat in less than 7 days,0,100,,297,Uncofirmed,0,Number of records last week (1) not enough for recommendation.
+2221189,2/21/2019,Overheat in less than 7 days,0,99.92884185,,890,Uncofirmed,0,Number of records last week (0) not enough for recommendation.
+2221189,2/11/2019,Overheat in less than 7 days,0,100,2/11/2019 0:00,1231,Strong but overdue,2,The last change in prediction happened more than 7 days ago. The current prediction is overdue.
+2221189,2/10/2019,Overheat in less than 7 days,0,100,2/10/2019 23:36,798,Strong but overdue,2,The last change in prediction happened more than 7 days ago. The current prediction is overdue.
+2221189,2/8/2019,Overheat in less than 7 days,0,99.99999747,2/10/2019 23:36,796,Strong but overdue,2,The last change in prediction happened more than 7 days ago. The current prediction is overdue.
+2221189,2/7/2019,Overheat in less than 7 days,0,100,2/10/2019 23:36,236,Strong but overdue,2,The last change in prediction happened more than 7 days ago. The current prediction is overdue.
+2221189,2/6/2019,Overheat in less than 7 days,0,100,2/6/2019 0:00,1237,Strong but overdue,2,The last change in prediction happened more than 7 days ago. The current prediction is overdue.
+2221189,2/5/2019,Overheat in less than 7 days,0,100,2/5/2019 6:05,1047,Strong but overdue,2,The last change in prediction happened more than 7 days ago. The current prediction is overdue.
+2221189,2/4/2019,Overheat in less than 7 days,0,99.9997695,2/5/2019 6:05,571,Strong but overdue,2,The last change in prediction happened more than 7 days ago. The current prediction is overdue.
+2221189,2/2/2019,Overheat in less than 7 days,0,100,2/5/2019 6:05,799,Strong but overdue,2,The last change in prediction happened more than 7 days ago. The current prediction is overdue.
+2221189,2/1/2019,Overheat in less than 7 days,0,99.99989811,2/5/2019 6:05,691,Strong but overdue,2,The last change in prediction happened more than 7 days ago. The current prediction is overdue.
+2221189,1/31/2019,Overheat in less than 7 days,0,100,1/31/2019 7:29,991,Strong,2,Reversal(s) happened prior to last week. The last transition is more than 2 days old but still last week.
+2221189,1/30/2019,Overheat in less than 7 days,0,100,1/31/2019 7:29,1013,Strong,2,Reversal(s) happened prior to last week. The last transition is more than 2 days old but still last week.
+2221189,1/29/2019,Overheat in less than 7 days,0,100,1/31/2019 7:29,713,Weak,1,The last reversal happened last weak.
+2221189,1/28/2019,Overheat in less than 7 days,0,99.99998072,1/31/2019 7:29,983,Weak,1,The last reversal happened last weak.
+2221189,1/25/2019,Overheat in less than 7 days,0,100,1/31/2019 7:29,714,Weak,1,The change closest to date happened at most 2 days ago AND a reversal happened last week.
+2221189,1/24/2019,"Overheat in [7, 14] days",1,99.98906138,1/31/2019 7:29,994,Strong but overdue,2,No mixed predictions in history. More than 7 days of constant prediction.
+2221189,1/23/2019,"Overheat in [7, 14] days",1,99.66530147,1/31/2019 7:29,499,Strong but overdue,2,No mixed predictions in history. More than 7 days of constant prediction.
+2221189,1/22/2019,Overheat in less than 7 days,0,100,1/22/2019 15:10,150,Strong but overdue,2,No mixed predictions in history. More than 7 days of constant prediction.
+2221189,1/21/2019,Overheat in less than 7 days,0,99.99503967,1/22/2019 15:10,495,Strong but overdue,2,No mixed predictions in history. More than 7 days of constant prediction.
+2221189,1/18/2019,Overheat in less than 7 days,0,99.99830374,1/22/2019 15:10,1003,Strong but overdue,2,No mixed predictions in history. More than 7 days of constant prediction.
+2221189,1/17/2019,Overheat in less than 7 days,0,100,1/22/2019 15:10,930,Strong but overdue,2,No mixed predictions in history. More than 7 days of constant prediction.
+2221189,1/16/2019,Overheat in less than 7 days,0,100,1/16/2019 7:00,691,Strong but overdue,2,No mixed predictions in history. More than 7 days of constant prediction.
+2221189,1/15/2019,Overheat in less than 7 days,0,99.99962152,1/16/2019 7:00,547,Strong but overdue,2,No mixed predictions in history. More than 7 days of constant prediction.
+2221189,1/14/2019,Overheat in less than 7 days,0,100,1/14/2019 12:27,691,Strong but overdue,2,No mixed predictions in history. More than 7 days of constant prediction.
+2221189,1/13/2019,Overheat in less than 7 days,0,100,1/14/2019 12:27,1026,Strong but overdue,2,No mixed predictions in history. More than 7 days of constant prediction.
+2221189,1/12/2019,Overheat in less than 7 days,0,100,1/14/2019 12:27,785,Strong but overdue,2,No mixed predictions in history. More than 7 days of constant prediction.
+2221189,1/11/2019,Overheat in less than 7 days,0,99.99999599,1/14/2019 12:27,996,Strong but overdue,2,No mixed predictions in history. More than 7 days of constant prediction.
+2221189,1/10/2019,Overheat in less than 7 days,0,99.99988839,1/14/2019 12:27,961,Strong but overdue,2,No mixed predictions in history. More than 7 days of constant prediction.
+2221189,1/9/2019,Overheat in less than 7 days,0,100,1/14/2019 12:27,625,Strong but overdue,2,No mixed predictions in history. More than 7 days of constant prediction.
+2221189,1/8/2019,Overheat in less than 7 days,0,99.99999351,1/14/2019 12:27,906,Strong,2,No mixed predictions in history. At least 2 days of constant prediction.
+2221189,1/7/2019,Overheat in less than 7 days,0,100,1/7/2019 4:23,1105,Uncofirmed,0,Number of records last week (3) not enough for recommendation.
+2221189,1/4/2019,Overheat in less than 7 days,0,99.99998339,1/7/2019 4:23,936,Uncofirmed,0,Number of records last week (2) not enough for recommendation.
+2221189,1/3/2019,Overheat in less than 7 days,0,100,1/7/2019 4:23,853,Uncofirmed,0,Number of records last week (1) not enough for recommendation.
+2221189,1/2/2019,Overheat in less than 7 days,0,100,1/2/2019 18:04,352,Unconfirmed,0,Total days in history = 0. 
+2221214,2/20/2019,Overheat in less than 7 days,0,98.82675875,,578,Uncofirmed,0,Number of records last week (0) not enough for recommendation.
+2221214,2/4/2019,Overheat in less than 7 days,0,97.37733039,,488,Uncofirmed,0,Number of records last week (2) not enough for recommendation.
+2221214,1/31/2019,Overheat in less than 7 days,0,93.3547347,,531,Uncofirmed,0,Number of records last week (1) not enough for recommendation.
+2221214,1/30/2019,"Overheat in [7, 14] days",1,53.66635429,,701,Uncofirmed,0,Number of records last week (0) not enough for recommendation.
+2221214,1/17/2019,Overheat in less than 7 days,0,99.80672172,,715,Uncofirmed,0,Number of records last week (1) not enough for recommendation.
+2221214,1/11/2019,Overheat in less than 7 days,0,99.98734099,1/11/2019 6:29,89,Uncofirmed,0,Number of records last week (1) not enough for recommendation.
+2221214,1/9/2019,Overheat in less than 7 days,0,99.99872382,1/11/2019 6:29,429,Uncofirmed,0,Number of records last week (1) not enough for recommendation.
+2221214,1/2/2019,"Overheat in [7, 14] days",1,99.81371256,1/11/2019 6:29,676,Uncofirmed,0,Number of records last week (0) not enough for recommendation.
+2221214,12/15/2018,Overheat in more than 14 days,2,100,1/11/2019 6:29,30,Uncofirmed,0,Number of records last week (2) not enough for recommendation.
+2221214,12/13/2018,Overheat in more than 14 days,2,99.91709371,1/11/2019 6:29,695,Uncofirmed,0,Number of records last week (1) not enough for recommendation.
+2221214,12/11/2018,Overheat in more than 14 days,2,99.94017622,1/11/2019 6:29,430,Unconfirmed,0,Total days in history = 0. 
+2221251,2/24/2019,Overheat in less than 7 days,0,99.99964495,,1117,Strong but overdue,2,No mixed predictions in history. More than 7 days of constant prediction.
+2221251,2/23/2019,Overheat in less than 7 days,0,100,,55,Strong but overdue,2,No mixed predictions in history. More than 7 days of constant prediction.
+2221251,2/22/2019,Overheat in less than 7 days,0,100,,958,Strong but overdue,2,No mixed predictions in history. More than 7 days of constant prediction.
+2221251,2/21/2019,Overheat in less than 7 days,0,99.99984456,,302,Strong but overdue,2,No mixed predictions in history. More than 7 days of constant prediction.
+2221251,2/20/2019,Overheat in less than 7 days,0,99.99981724,,722,Strong but overdue,2,No mixed predictions in history. More than 7 days of constant prediction.
+2221251,2/19/2019,Overheat in less than 7 days,0,99.99987078,,928,Strong but overdue,2,No mixed predictions in history. More than 7 days of constant prediction.
+2221251,2/18/2019,Overheat in less than 7 days,0,100,,863,Strong but overdue,2,No mixed predictions in history. More than 7 days of constant prediction.
+2221251,2/15/2019,Overheat in less than 7 days,0,100,2/15/2019 9:27,484,Strong but overdue,2,No mixed predictions in history. More than 7 days of constant prediction.
+2221251,2/14/2019,Overheat in less than 7 days,0,100,2/14/2019 7:08,501,Strong but overdue,2,No mixed predictions in history. More than 7 days of constant prediction.
+2221251,2/13/2019,Overheat in less than 7 days,0,100,2/13/2019 14:59,553,Strong but overdue,2,No mixed predictions in history. More than 7 days of constant prediction.
+2221251,2/12/2019,Overheat in less than 7 days,0,100,2/13/2019 14:59,469,Strong but overdue,2,No mixed predictions in history. More than 7 days of constant prediction.
+2221251,2/11/2019,Overheat in less than 7 days,0,99.99999381,2/11/2019 10:03,882,Strong but overdue,2,No mixed predictions in history. More than 7 days of constant prediction.
+2221251,2/10/2019,Overheat in less than 7 days,0,100,2/11/2019 10:03,85,Strong but overdue,2,No mixed predictions in history. More than 7 days of constant prediction.
+2221251,2/8/2019,Overheat in less than 7 days,0,100,2/11/2019 10:03,1331,Strong but overdue,2,No mixed predictions in history. More than 7 days of constant prediction.
+2221251,2/7/2019,Overheat in less than 7 days,0,100,2/7/2019 7:33,550,Strong but overdue,2,No mixed predictions in history. More than 7 days of constant prediction.
+2221251,2/6/2019,Overheat in less than 7 days,0,100,2/7/2019 7:33,669,Strong but overdue,2,No mixed predictions in history. More than 7 days of constant prediction.
+2221251,2/5/2019,Overheat in less than 7 days,0,100,2/5/2019 8:54,792,Strong but overdue,2,No mixed predictions in history. More than 7 days of constant prediction.
+2221251,2/4/2019,Overheat in less than 7 days,0,99.99980791,2/5/2019 8:54,1007,Strong but overdue,2,No mixed predictions in history. More than 7 days of constant prediction.
+2221251,2/1/2019,Overheat in less than 7 days,0,100,2/5/2019 8:54,481,Strong but overdue,2,No mixed predictions in history. More than 7 days of constant prediction.
+2221251,1/31/2019,Overheat in less than 7 days,0,100,2/5/2019 8:54,660,Strong but overdue,2,No mixed predictions in history. More than 7 days of constant prediction.
+2221251,1/30/2019,Overheat in less than 7 days,0,100,2/5/2019 8:54,419,Strong but overdue,2,No mixed predictions in history. More than 7 days of constant prediction.
+2221251,1/29/2019,Overheat in less than 7 days,0,57.53371392,2/5/2019 8:54,920,Strong but overdue,2,No mixed predictions in history. More than 7 days of constant prediction.
+2221251,1/28/2019,Overheat in less than 7 days,0,99.90604238,1/28/2019 5:51,587,Strong but overdue,2,No mixed predictions in history. More than 7 days of constant prediction.
+2221251,1/27/2019,Overheat in less than 7 days,0,100,1/28/2019 5:51,1168,Strong but overdue,2,The last change in prediction happened more than 7 days ago. The current prediction is overdue.
+2221251,1/25/2019,Overheat in less than 7 days,0,100,1/28/2019 5:51,794,Strong but overdue,2,The last change in prediction happened more than 7 days ago. The current prediction is overdue.
+2221251,1/24/2019,Overheat in less than 7 days,0,99.99868028,1/28/2019 5:51,688,Strong but overdue,2,The last change in prediction happened more than 7 days ago. The current prediction is overdue.
+2221251,1/23/2019,Overheat in less than 7 days,0,100,1/28/2019 5:51,954,Strong but overdue,2,The last change in prediction happened more than 7 days ago. The current prediction is overdue.
+2221251,1/22/2019,Overheat in less than 7 days,0,100,1/22/2019 11:15,555,Strong but overdue,2,The last change in prediction happened more than 7 days ago. The current prediction is overdue.
+2221251,1/21/2019,Overheat in less than 7 days,0,99.99994015,1/22/2019 11:15,211,Strong but overdue,2,The last change in prediction happened more than 7 days ago. The current prediction is overdue.
+2221251,1/19/2019,Overheat in less than 7 days,0,100,1/22/2019 11:15,129,Strong but overdue,2,The last change in prediction happened more than 7 days ago. The current prediction is overdue.
+2221251,1/18/2019,Overheat in less than 7 days,0,100,1/22/2019 11:15,1183,Strong but overdue,2,The last change in prediction happened more than 7 days ago. The current prediction is overdue.
+2221251,1/17/2019,Overheat in less than 7 days,0,100,1/22/2019 11:15,571,Strong but overdue,2,The last change in prediction happened more than 7 days ago. The current prediction is overdue.
+2221251,1/16/2019,Overheat in less than 7 days,0,100,1/22/2019 11:15,865,Strong but overdue,2,The last change in prediction happened more than 7 days ago. The current prediction is overdue.
+2221251,1/15/2019,Overheat in less than 7 days,0,99.99956108,1/15/2019 8:42,505,Strong but overdue,2,The last change in prediction happened more than 7 days ago. The current prediction is overdue.
+2221251,1/14/2019,Overheat in less than 7 days,0,100,1/15/2019 8:42,535,Strong but overdue,2,The last change in prediction happened more than 7 days ago. The current prediction is overdue.
+2221251,1/13/2019,Overheat in less than 7 days,0,100,1/15/2019 8:42,65,Strong but overdue,2,The last change in prediction happened more than 7 days ago. The current prediction is overdue.
+2221251,1/12/2019,Overheat in less than 7 days,0,100,1/15/2019 8:42,1129,Strong but overdue,2,The last change in prediction happened more than 7 days ago. The current prediction is overdue.
+2221251,1/11/2019,Overheat in less than 7 days,0,100,1/11/2019 16:18,537,Strong but overdue,2,The last change in prediction happened more than 7 days ago. The current prediction is overdue.
+2221251,1/10/2019,Overheat in less than 7 days,0,100,1/11/2019 16:18,367,Strong but overdue,2,The last change in prediction happened more than 7 days ago. The current prediction is overdue.
+2221251,1/9/2019,Overheat in less than 7 days,0,100,1/11/2019 16:18,444,Strong but overdue,2,The last change in prediction happened more than 7 days ago. The current prediction is overdue.
+2221251,1/8/2019,Overheat in less than 7 days,0,100,1/8/2019 16:37,586,Uncofirmed,0,Number of records last week (3) not enough for recommendation.
+2221251,1/4/2019,Overheat in less than 7 days,0,100,1/4/2019 14:58,394,Uncofirmed,0,Number of records last week (3) not enough for recommendation.
+2221251,1/3/2019,Overheat in less than 7 days,0,100,1/4/2019 14:58,389,Uncofirmed,0,Number of records last week (3) not enough for recommendation.
+2221251,1/2/2019,Overheat in less than 7 days,0,100,1/4/2019 14:58,590,Uncofirmed,0,Number of records last week (3) not enough for recommendation.
+2221251,12/28/2018,"Overheat in [7, 14] days",1,74.29704,1/4/2019 14:58,763,Strong but overdue,2,No mixed predictions in history. More than 7 days of constant prediction.
+2221251,12/27/2018,Overheat in less than 7 days,0,99.99704004,12/27/2018 16:29,463,Strong but overdue,2,No mixed predictions in history. More than 7 days of constant prediction.
+2221251,12/26/2018,Overheat in less than 7 days,0,99.99998466,12/27/2018 16:29,721,Strong but overdue,2,No mixed predictions in history. More than 7 days of constant prediction.
+2221251,12/25/2018,Overheat in less than 7 days,0,100,12/25/2018 0:00,22,Strong but overdue,2,No mixed predictions in history. More than 7 days of constant prediction.
+2221251,12/24/2018,Overheat in less than 7 days,0,100,12/24/2018 23:57,807,Strong but overdue,2,No mixed predictions in history. More than 7 days of constant prediction.
+2221251,12/22/2018,Overheat in less than 7 days,0,99.99999666,12/24/2018 23:57,946,Strong but overdue,2,No mixed predictions in history. More than 7 days of constant prediction.
+2221251,12/21/2018,Overheat in less than 7 days,0,99.99990447,12/24/2018 23:57,1202,Strong but overdue,2,No mixed predictions in history. More than 7 days of constant prediction.
+2221251,12/20/2018,Overheat in less than 7 days,0,100,12/24/2018 23:57,1141,Strong but overdue,2,No mixed predictions in history. More than 7 days of constant prediction.
+2221251,12/19/2018,Overheat in less than 7 days,0,100,12/24/2018 23:57,456,Strong but overdue,2,No mixed predictions in history. More than 7 days of constant prediction.
+2221251,12/18/2018,Overheat in less than 7 days,0,100,12/18/2018 18:21,705,Strong but overdue,2,No mixed predictions in history. More than 7 days of constant prediction.
+2221251,12/17/2018,Overheat in less than 7 days,0,99.99989824,12/18/2018 18:21,1081,Strong but overdue,2,No mixed predictions in history. More than 7 days of constant prediction.
+2221251,12/16/2018,Overheat in less than 7 days,0,100,12/16/2018 0:00,20,Strong but overdue,2,No mixed predictions in history. More than 7 days of constant prediction.
+2221251,12/15/2018,Overheat in less than 7 days,0,100,12/15/2018 14:05,1141,Strong but overdue,2,No mixed predictions in history. More than 7 days of constant prediction.
+2221251,12/14/2018,Overheat in less than 7 days,0,100,12/15/2018 14:05,425,Strong but overdue,2,No mixed predictions in history. More than 7 days of constant prediction.
+2221251,12/13/2018,Overheat in less than 7 days,0,100,12/15/2018 14:05,587,Strong but overdue,2,No mixed predictions in history. More than 7 days of constant prediction.
+2221251,12/12/2018,Overheat in less than 7 days,0,99.99932249,12/15/2018 14:05,1022,Strong but overdue,2,No mixed predictions in history. More than 7 days of constant prediction.
+2221251,12/11/2018,Overheat in less than 7 days,0,100,12/11/2018 7:48,424,Strong,2,No mixed predictions in history. At least 2 days of constant prediction.
+2221251,12/10/2018,Overheat in less than 7 days,0,99.99999655,12/10/2018 7:17,560,Strong,2,No mixed predictions in history. At least 2 days of constant prediction.
+2221251,12/9/2018,Overheat in less than 7 days,0,100,12/10/2018 7:17,1072,Strong,2,No mixed predictions in history. At least 2 days of constant prediction.
+2221251,12/8/2018,Overheat in less than 7 days,0,100,12/8/2018 17:38,1112,Uncofirmed,0,Number of records last week (3) not enough for recommendation.
+2221251,12/7/2018,Overheat in less than 7 days,0,100,12/7/2018 8:22,555,Uncofirmed,0,Number of records last week (2) not enough for recommendation.
+2221251,12/6/2018,Overheat in less than 7 days,0,100,12/7/2018 8:22,196,Uncofirmed,0,Number of records last week (1) not enough for recommendation.
+2221251,12/5/2018,Overheat in less than 7 days,0,99.99998135,12/7/2018 8:22,1254,Unconfirmed,0,Total days in history = 0. 

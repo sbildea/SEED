@@ -1,0 +1,10 @@
+# Pachete care NU sunt preinstalate în Google Colab (restul: pandas, numpy, scikit-learn,
+# matplotlib, seaborn, plotly, statsmodels, xgboost, openpyxl etc. există deja în Colab).
+# Instalate automat de celula „Configurare curs".
+pygam
+dmba
+optuna
+pca
+mlxtend
+google-genai
+redlines
