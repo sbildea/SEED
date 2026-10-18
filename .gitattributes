@@ -1,0 +1,10 @@
+# Fișierele text se păstrează cu terminații LF pe toate calculatoarele (Windows, macOS, Linux)
+* text=auto eol=lf
+*.ps1 text eol=crlf
+*.pdf binary
+*.pptx binary
+*.docx binary
+*.png binary
+*.jpg binary
+*.gif binary
+*.zip binary

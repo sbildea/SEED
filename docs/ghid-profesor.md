@@ -68,7 +68,9 @@ $env:SEED_DATE_LOCAL = "C:\Users\User\OneDrive\work\UNITBV\2026-2027\SEM I\SEED_
 - `curs-*`: materialele de curs (PDF/PPTX și notebook-uri); ultimul notebook de curs se încheie cu **puntea curs → seminar** (concepte, cererea către AI, ce se verifică);
 - `seminar-*`: seminarul aplicat, care pornește de la aceeași punte; studenții scriu cererile, verifică și interpretează;
 - `tema-*`: temele; `extra-*`: materialele din anii anteriori, cu cod complet, păstrate ca referință;
-- `README.md`: pagina modulului (materiale în ordine + puntea). Textul punților și al seminariilor poate fi editat direct.
+- `README.md`: pagina modulului (problema de business, materiale în ordine, puntea). Textul punților și al seminariilor poate fi editat direct.
+
+Structura comună a unui modul (problema de business, rolul studentului, conceptele, puntea, seminarul, tema) și lista de verificare pentru un modul nou sunt în [sablon-modul.md](sablon-modul.md).
 
 Notebook-urile de *prompting* din modulul 1 (`curs-01b-prompting-*`) folosesc `bop_utils.py` și cheia API Gemini personală a fiecărui student (Colab Secrets / variabila `GOOGLE_API_KEY`). Nu puneți chei API în repository; `.gitignore` blochează fișierele de tip `google_api*.txt`.
 
