@@ -23,6 +23,7 @@
 
 **Extra (referință)** — materiale din anii anteriori, cu cod complet, pentru cine vrea să aprofundeze
 
+- [extra-04-codificare-categoriale](extra-04-codificare-categoriale.pdf) (PDF): Codificarea variabilelor categoriale (slide-uri)
 - [extra-04-exercitii-regresie-boston](extra-04-exercitii-regresie-boston.ipynb) · [Open in Colab](https://colab.research.google.com/github/sbildea/SEED/blob/main/cursuri/04-regresie/extra-04-exercitii-regresie-boston.ipynb)
 - [extra-04-regresori-ml](extra-04-regresori-ml.ipynb) · [Open in Colab](https://colab.research.google.com/github/sbildea/SEED/blob/main/cursuri/04-regresie/extra-04-regresori-ml.ipynb)
 

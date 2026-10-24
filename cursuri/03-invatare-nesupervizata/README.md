@@ -22,6 +22,7 @@
 
 **Extra (referință)** — materiale din anii anteriori, cu cod complet, pentru cine vrea să aprofundeze
 
+- [extra-03-standardizare](extra-03-standardizare.pdf) (PDF): Standardizarea datelor (slide-uri)
 - [extra-03-asociere-recomandari](extra-03-asociere-recomandari.ipynb) · [Open in Colab](https://colab.research.google.com/github/sbildea/SEED/blob/main/cursuri/03-invatare-nesupervizata/extra-03-asociere-recomandari.ipynb)
 - [extra-03-pca-clusterizare](extra-03-pca-clusterizare.ipynb) · [Open in Colab](https://colab.research.google.com/github/sbildea/SEED/blob/main/cursuri/03-invatare-nesupervizata/extra-03-pca-clusterizare.ipynb)
 

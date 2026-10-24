@@ -17,6 +17,7 @@
 
 **Extra (referință)** — materiale din anii anteriori, cu cod complet, pentru cine vrea să aprofundeze
 
+- [extra-06-pipeline-uri](extra-06-pipeline-uri.pdf) (PDF): Linii de procesare / pipeline (slide-uri)
 - [extra-06-exemplu-clasificator-svm](extra-06-exemplu-clasificator-svm.ipynb) · [Open in Colab](https://colab.research.google.com/github/sbildea/SEED/blob/main/cursuri/06-evaluare-optimizare/extra-06-exemplu-clasificator-svm.ipynb)
 - [extra-06-optuna-dashboard-script](extra-06-optuna-dashboard-script.ipynb) · [Open in Colab](https://colab.research.google.com/github/sbildea/SEED/blob/main/cursuri/06-evaluare-optimizare/extra-06-optuna-dashboard-script.ipynb)
 - [extra-06-optuna-dashboard](extra-06-optuna-dashboard.ipynb) · [Open in Colab](https://colab.research.google.com/github/sbildea/SEED/blob/main/cursuri/06-evaluare-optimizare/extra-06-optuna-dashboard.ipynb)

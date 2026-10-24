@@ -73,7 +73,7 @@ python tools/imagini_offline.py
 
 ## 6. Deschide și rulează un notebook
 
-1. În VS Code, deschide un notebook din `cursuri/...` (de exemplu `cursuri/02-explorare-vizualizare/seminar-02-explorare-vizualizare.ipynb`).
+1. În VS Code, deschide un notebook din `cursuri/...` (de exemplu `cursuri/02-explorare-vizualizare/seminar-02b-vizualizarea-datelor.ipynb`).
 2. Sus-dreapta, **Select Kernel → Python Environments → .venv**.
 3. Rulează prima celulă, **Configurare curs** (local nu descarcă nimic; doar face pachetul cursului vizibil), apoi celelalte cu **Shift + Enter**.
 4. Datele se încarcă la fel ca în Colab:

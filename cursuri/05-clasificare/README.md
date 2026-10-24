@@ -24,6 +24,7 @@
 
 **Extra (referință)** — materiale din anii anteriori, cu cod complet, pentru cine vrea să aprofundeze
 
+- [extra-05-balansarea-claselor](extra-05-balansarea-claselor.pdf) (PDF): Balansarea claselor (slide-uri)
 - [extra-05-exercitii-regresie-logistica](extra-05-exercitii-regresie-logistica.ipynb) · [Open in Colab](https://colab.research.google.com/github/sbildea/SEED/blob/main/cursuri/05-clasificare/extra-05-exercitii-regresie-logistica.ipynb)
 - [extra-05-tuning-clasic](extra-05-tuning-clasic.ipynb) · [Open in Colab](https://colab.research.google.com/github/sbildea/SEED/blob/main/cursuri/05-clasificare/extra-05-tuning-clasic.ipynb)
 

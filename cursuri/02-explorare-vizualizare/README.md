@@ -1,6 +1,6 @@
 # Modulul 2: Analiza exploratorie și vizualizarea datelor
 
-2 ore de curs + 2 ore de seminar. La curs înțelegem conceptele; la seminar le aplicăm lucrând cu un asistent AI.
+2 ore de curs + 2 ore de seminar (părțile a și b). La curs înțelegem conceptele; la seminar le aplicăm lucrând cu un asistent AI.
 
 **Problema de business.** Managerul unui magazin online: *„Ce se vinde, cui și când? Și pot avea încredere în cifrele din sistem?”*
 
@@ -13,19 +13,15 @@
 - [curs-02-vizualizarea-datelor](curs-02-vizualizarea-datelor.ipynb) · [Open in Colab](https://colab.research.google.com/github/sbildea/SEED/blob/main/cursuri/02-explorare-vizualizare/curs-02-vizualizarea-datelor.ipynb)
 - [curs-02-vizualizarea-datelor](curs-02-vizualizarea-datelor.pdf) (PDF)
 
-**Seminar**
+**Seminar** (două părți, ca și cursul și tema): 2a este un cheat-sheet de vocabular pandas pentru cererile către asistentul AI; 2b conține exemplele de grafice și exercițiile pe `lab-set4`
 
-- [seminar-02-explorare-vizualizare](seminar-02-explorare-vizualizare.ipynb) · [Open in Colab](https://colab.research.google.com/github/sbildea/SEED/blob/main/cursuri/02-explorare-vizualizare/seminar-02-explorare-vizualizare.ipynb)
+- [seminar-02a-dataframe](seminar-02a-dataframe.ipynb) · [Open in Colab](https://colab.research.google.com/github/sbildea/SEED/blob/main/cursuri/02-explorare-vizualizare/seminar-02a-dataframe.ipynb)
+- [seminar-02b-vizualizarea-datelor](seminar-02b-vizualizarea-datelor.ipynb) · [Open in Colab](https://colab.research.google.com/github/sbildea/SEED/blob/main/cursuri/02-explorare-vizualizare/seminar-02b-vizualizarea-datelor.ipynb)
 
 **Temă**
 
 - [tema-02a-dataframe-analiza-exploratorie](tema-02a-dataframe-analiza-exploratorie.ipynb) · [Open in Colab](https://colab.research.google.com/github/sbildea/SEED/blob/main/cursuri/02-explorare-vizualizare/tema-02a-dataframe-analiza-exploratorie.ipynb)
 - [tema-02b-vizualizarea-datelor](tema-02b-vizualizarea-datelor.ipynb) · [Open in Colab](https://colab.research.google.com/github/sbildea/SEED/blob/main/cursuri/02-explorare-vizualizare/tema-02b-vizualizarea-datelor.ipynb)
-
-**Extra (referință)** — materiale din anii anteriori, cu cod complet, pentru cine vrea să aprofundeze
-
-- [extra-02-dataframe](extra-02-dataframe.ipynb) · [Open in Colab](https://colab.research.google.com/github/sbildea/SEED/blob/main/cursuri/02-explorare-vizualizare/extra-02-dataframe.ipynb)
-- [extra-02-vizualizarea-datelor](extra-02-vizualizarea-datelor.ipynb) · [Open in Colab](https://colab.research.google.com/github/sbildea/SEED/blob/main/cursuri/02-explorare-vizualizare/extra-02-vizualizarea-datelor.ipynb)
 
 ## Puntea curs → seminar
 
@@ -33,7 +29,7 @@
 
 1. **Distribuții:** centru (medie, mediană), împrăștiere (abatere standard, IQR), asimetrie.
 2. **Valori lipsă și valori aberante:** cum le detectăm și ce decidem să facem cu ele.
-3. **Relații între variabile:** corelație, tabele încrucișate; corelația nu înseamnă cauzalitate.
+3. **Relații între variabile:** scatter și tabele încrucișate; corelația se discută la cursul următor, înainte de PCA.
 4. **Graficul potrivit întrebării:** histogramă, boxplot, scatter, bar chart, heatmap.
 
 **Ce ceri asistentului AI** (exemplu de cerere)
