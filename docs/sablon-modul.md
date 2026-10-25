@@ -27,6 +27,8 @@ Studenții (viitori analiști, consultanți, consultanți de implementare) nu î
 ## Notebook-ul de curs
 
 1. antetul cursului, badge-ul Colab și celula „Configurare curs” (copiate dintr-un notebook existent din același modul);
+   celula detectează mediul: în Colab clonează repository-ul și instalează pachetele; local găsește singură rădăcina repository-ului, verifică pachetele și conexiunea și trece în folderul modulului (se schimbă doar `MODUL = "..."`);
+   imaginile din text se scriu cu adrese `raw.githubusercontent.com` (se văd în Colab, inclusiv în copia din Drive); offline, local, se folosește `python tools/imagini_offline.py`;
 2. „Problema de azi”: clientul și întrebările cursului;
 3. câte o secțiune pe concept: **explicație scurtă → cel mult o celulă de cod → interpretare**;
 4. o secțiune „Ce îi spunem clientului”: un rezumat cu cifre calculate în notebook;

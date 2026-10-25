@@ -7,11 +7,12 @@
 - **Rolul vostru:** analist de date: transformați o cerere vagă în întrebări la care datele pot răspunde.
 - **Ce predați la final:** trei întrebări analitice despre clienții Telco (`lab-set1`), fiecare cu coloanele care îi răspund și decizia pe care o susține.
 
-**Structura cursului (2h):** 1h concepte despre date și întrebări (slide-urile de mai jos) + 1h curs intensiv de *prompting* (notebook-urile `curs-01b-prompting-1` … `5`, care folosesc Gemini cu o cheie API personală gratuită) și slide-urile despre programarea asistată de AI (de adăugat ca `curs-01c-programare-asistata-ai.pdf`).
+**Structura cursului (2h):** 1h concepte despre date și întrebări (slide-urile de mai jos) + 1h curs intensiv de *prompting* (notebook-urile `curs-01b-prompting-1` … `5`, care folosesc Gemini cu o cheie API personală gratuită) și slide-urile despre programarea asistată de AI (`claude_code_primer_basics`, mai jos).
 
 **Curs**
 
 - [curs-01-introducere](curs-01-introducere.pdf) (PDF)
+- [claude_code_primer_basics](claude_code_primer_basics.pptx) (PPTX): programarea asistată de AI, primii pași
 - [curs-01b-prompting-1-principii-si-tactici](curs-01b-prompting-1-principii-si-tactici.ipynb) · [Open in Colab](https://colab.research.google.com/github/sbildea/SEED/blob/main/cursuri/01-date-intrebari-ai/curs-01b-prompting-1-principii-si-tactici.ipynb)
 - [curs-01b-prompting-2-iterare](curs-01b-prompting-2-iterare.ipynb) · [Open in Colab](https://colab.research.google.com/github/sbildea/SEED/blob/main/cursuri/01-date-intrebari-ai/curs-01b-prompting-2-iterare.ipynb)
 - [curs-01b-prompting-3-rezumare](curs-01b-prompting-3-rezumare.ipynb) · [Open in Colab](https://colab.research.google.com/github/sbildea/SEED/blob/main/cursuri/01-date-intrebari-ai/curs-01b-prompting-3-rezumare.ipynb)
@@ -28,7 +29,6 @@
 
 **Extra (referință)** — materiale din anii anteriori, cu cod complet, pentru cine vrea să aprofundeze
 
-- [extra-01-instructiuni-anaconda](extra-01-instructiuni-anaconda.pdf) (PDF)
 - [extra-01-recapitulare-python](extra-01-recapitulare-python.ipynb) · [Open in Colab](https://colab.research.google.com/github/sbildea/SEED/blob/main/cursuri/01-date-intrebari-ai/extra-01-recapitulare-python.ipynb)
 
 ## Puntea curs → seminar
