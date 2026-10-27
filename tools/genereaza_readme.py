@@ -23,6 +23,9 @@ TITLURI = {
     "06-evaluare-optimizare": "Evaluare și optimizare: metrici, validare încrucișată, Optuna",
     "07-proiect": "Proiect: de la întrebare la decizie",
 }
+# Doar modulele finalizate apar în tabel (și sunt urmărite de git; vezi .gitignore).
+# Când un modul este gata, adaugă-l aici și scoate-l din .gitignore.
+FINALIZATE = {"01-date-intrebari-ai", "02-explorare-vizualizare", "03-invatare-nesupervizata"}
 BADGE = "https://colab.research.google.com/assets/colab-badge.svg"
 
 
@@ -45,7 +48,7 @@ def celula(folder, rel, prefix):
 def tabel():
     randuri = ["| Modul | Curs (2h) | Seminar (2h) | Temă |", "|---|---|---|---|"]
     for folder in sorted((RADACINA / "cursuri").iterdir()):
-        if not folder.is_dir():
+        if not folder.is_dir() or folder.name not in FINALIZATE:
             continue
         rel = f"cursuri/{folder.name}"
         titlu = f"**{int(folder.name[:2])}.** [{TITLURI.get(folder.name, folder.name)}]({rel})"

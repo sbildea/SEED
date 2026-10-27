@@ -28,8 +28,13 @@ openai_api.txt
 *tokens*.json
 .env
 
-# imagini generate de notebook-uri la rulare
-cursuri/05-clasificare/FittingLogR2.png
-cursuri/05-clasificare/Likelihood*.png
-cursuri/05-clasificare/diabetes.png
+# note de lucru, nepublicate
 cursuri/02-explorare-vizualizare/dialog_imbunatatiri.md
+cursuri/02-explorare-vizualizare/de_mutat_in_modulele_3_5.pptx
+
+# module nefinalizate: ignorate până la finalizarea refactorizării
+# (când un modul e gata: scoate-l de aici și adaugă-l în FINALIZATE din tools/genereaza_readme.py)
+cursuri/04-regresie/
+cursuri/05-clasificare/
+cursuri/06-evaluare-optimizare/
+cursuri/07-proiect/
