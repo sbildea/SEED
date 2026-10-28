@@ -72,7 +72,7 @@ $env:SEED_DATE_LOCAL = "C:\Users\User\OneDrive\work\UNITBV\2026-2027\SEM I\SEED_
 
 Structura comună a unui modul (problema de business, rolul studentului, conceptele, puntea, seminarul, tema) și lista de verificare pentru un modul nou sunt în [sablon-modul.md](sablon-modul.md).
 
-Notebook-urile de *prompting* din modulul 1 (`curs-01b-prompting-*`) folosesc `bop_utils.py` și cheia API Gemini personală a fiecărui student (Colab Secrets / variabila `GOOGLE_API_KEY`). Nu puneți chei API în repository; `.gitignore` blochează fișierele de tip `google_api*.txt`.
+Notebook-urile de *prompting* din modulul 1 (`curs-01b-prompting-*`) folosesc `bop_utils.py` și cheia API Gemini personală a fiecărui student (Colab Secrets / variabila de mediu `GOOGLE_API_KEY`, la singular). Modelul implicit este `gemini-flash-lite-latest`, cu limite gratuite largi; se poate schimba cu variabila `SEED_GEMINI_MODEL`. Dacă studenții ating limita, `get_completion` afișează un mesaj în română, nu o eroare. Nu puneți chei API în repository; `.gitignore` blochează fișierele de tip `google_api*.txt`.
 
 ## 3. Actualizări zilnice
 
