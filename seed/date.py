@@ -49,9 +49,6 @@ def _aduce_arhiva(nume, destinatie):
     if local and (Path(local) / f"{nume}.zip").exists():
         shutil.copy(Path(local) / f"{nume}.zip", destinatie)
         return
-    if GITHUB_USER == "YOUR-" + "USERNAME":  # despărțit ca să nu fie înlocuit de tools/seteaza_utilizator_github.py
-        raise RuntimeError("Repository-ul cursului nu este configurat: rulați "
-                           "tools/seteaza_utilizator_github.py sau setați SEED_DATE_LOCAL.")
     url = URL_DATE.format(user=GITHUB_USER, repo=REPO, tag=TAG_DATE, nume=nume)
     print(f"Descărcare {nume} (doar prima dată)...")
     urllib.request.urlretrieve(url, destinatie)

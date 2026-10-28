@@ -17,12 +17,7 @@ Pentru că `SEED_extras` nu mai stă lângă repository, scripturile care o folo
 ## 1. Prima publicare (o singură dată, ~30 minute)
 
 1. Cont GitHub (cu emailul universității poți cere beneficiile gratuite GitHub Education) și **GitHub Desktop** instalat.
-2. Setează numele de utilizator GitHub în tot repository-ul (link-uri Colab, imagini, date):
-
-   ```
-   python tools/seteaza_utilizator_github.py <utilizatorul-tau>
-   python tools/genereaza_readme.py
-   ```
+2. Numele de utilizator GitHub (`sbildea`) este deja setat în `seed/catalog.py`, iar linkurile Colab și imaginile îl folosesc direct. La un cont nou, înlocuiește-l în tot repository-ul (căutare/înlocuire a lui `sbildea`) și rulează `python tools/genereaza_readme.py`.
 
 3. În GitHub Desktop: **File → Add local repository** → alege folderul `C:\UNITBV\SEED` → „create a repository" (fără README, există deja). Scrie un rezumat, de exemplu `Publicare inițială curs`, apoi **Commit to main** și **Publish repository**.
 4. Debifează „Keep this code private". Link-urile **Open in Colab** și descărcarea datelor funcționează doar pentru repository-uri **publice**.
