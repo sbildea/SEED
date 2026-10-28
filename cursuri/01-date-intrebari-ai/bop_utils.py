@@ -131,7 +131,8 @@ def get_completion(prompt=None, model=None):
         if "API key" in mesaj or "API_KEY" in mesaj or "403" in mesaj or "400" in mesaj:
             return "Cheia API pare greșită sau expirată. Creează alta pe https://aistudio.google.com/apikey"
         raise
-    print("duration: ", round(time.time() - tic, 2))
+    nume = getattr(response, "model_version", None) or model or MODEL
+    print(f"Powered by {nume} | duration: {round(time.time() - tic, 2)} s")
     try:
         return response.text
     except Exception:
