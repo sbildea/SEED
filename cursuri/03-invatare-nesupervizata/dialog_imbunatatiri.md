@@ -4,14 +4,14 @@ Document viu: eu scriu aici, pun întrebările în conversație, tu răspunzi, e
 
 ## 0. Ce rămâne de făcut (punct de reluare pentru sesiunea următoare)
 
-Stare la 2026-10-26: **`curs-03a` și `curs-03b` sunt gata** (format „scenă”, fără ieșiri salvate, rulate fără erori cu `.venv`, valori de control verificate). Celula „Configurare curs” detectează mediul (Colab / local) și e aplicată în toate cele 41 de notebook-uri din modulele 1-7; modulele 1-2 au fost verificate și corectate. Nu s-a făcut niciun commit.
+Stare la 2026-10-26: **`curs-03a` și `curs-03b` sunt gata** (format „capitol”, fără ieșiri salvate, rulate fără erori cu `.venv`, valori de control verificate). Celula „Configurare curs” detectează mediul (Colab / local) și e aplicată în toate cele 41 de notebook-uri din modulele 1-7; modulele 1-2 au fost verificate și corectate. Nu s-a făcut niciun commit.
 
 ### Modulul 3, de făcut
-1. **`seminar-03-invatare-nesupervizata.ipynb`**: refăcut în formatul scenelor. Repetă conceptele din curs pentru fixare, pe alt set de date sau pe setul proiectului. Cu valori de control, „ferestre” pentru capcane (constante, POSTAGE, anulări), întrebări de interpretare, Jurnal de sesiune unificat și aceeași **Punte curs → seminar** ca în `curs-03b`. De corectat exercițiul „pe proiectul vostru” (PCA nu folosește ținta).
+1. **`seminar-03-invatare-nesupervizata.ipynb`**: refăcut în formatul pe capitole. Repetă conceptele din curs pentru fixare, pe alt set de date sau pe setul proiectului. Cu valori de control, „ferestre” pentru capcane (constante, POSTAGE, anulări), întrebări de interpretare, Jurnal de sesiune unificat și aceeași **Punte curs → seminar** ca în `curs-03b`. De corectat exercițiul „pe proiectul vostru” (PCA nu folosește ținta).
 2. **`tema-03-invatare-nesupervizata.ipynb`**: titlul „Tema 3” (acum „Tema 4”); scoasă trimiterea la „pasul 5 de la laborator”; set de date și `random_state` specificate; exerciții PCA, k-means, asociere; Jurnal AI cu numărul corect de rânduri; fără cerința de standardizare înainte de corelație. Nu rezolvăm exercițiul în locul studentului. **Decizie necesară de la tine:** setul pentru PCA/k-means din temă, ca să nu repete seminarul. Propunere: `lab-set5` (`credit_train`) sau setul proiectului fiecărui student (`incarca("proiect-NN")`).
 3. **`README.md` al modulului**: puntea identică cu cea din `curs-03b`, notele modulului, lista de extra-uri.
 4. **`extra-03-*`**: în `extra-03-asociere` nu se descarcă date de pe internet; Apriori pe 58 de „tranzacții” cu `min_support` 0,01 nu are sens; celule de depanare în `extra-03-pca-clusterizare`; remaparea manuală a etichetelor pe iris; imagini nefolosite de șters; `de_mutat_in_modulele_3_5.pptx` (necomis) de șters.
-5. **Extra nou: recomandări cu `implicit` (ALS / BPR)**, ca înlocuitor al LightFM (nemenținut, instalare problematică pe Python/numpy recente). Aceleași date MovieLens și aceeași împărțire (`random_state=17`) ca în scena 8 din `curs-03b`, ca precizie@k să fie comparabilă cu SVD (0,128 popularitate / 0,208 SVD 30 de factori la precizie@5). Modul hibrid cu trăsături: doar mențiune în Referință, cu trimitere la `cornac`. **De verificat înainte de a-l promite:** `pip install implicit` merge pe Python 3.12 în `.venv` și în Colab (alternativa bazată pe memorie, netestată aici).
+5. **Extra nou: recomandări cu `implicit` (ALS / BPR)**, ca înlocuitor al LightFM (nemenținut, instalare problematică pe Python/numpy recente). Aceleași date MovieLens și aceeași împărțire (`random_state=17`) ca în capitolul 8 din `curs-03b`, ca precizie@k să fie comparabilă cu SVD (0,128 popularitate / 0,208 SVD 30 de factori la precizie@5). Modul hibrid cu trăsături: doar mențiune în Referință, cu trimitere la `cornac`. **De verificat înainte de a-l promite:** `pip install implicit` merge pe Python 3.12 în `.venv` și în Colab (alternativa bazată pe memorie, netestată aici).
 6. Înainte de livrare: fiecare notebook rulat de la zero (kernel `.venv`), apoi livrat **fără ieșiri** (D9). Valorile de control se verifică prin execuție, nu din memorie.
 
 ### Transversal, după modulul 3
@@ -40,8 +40,8 @@ Rolul tău: regizorul spectacolului. Rolul meu: să construiesc scenariul, mater
 
 ## 2. Schița formatului (propunere, de validat)
 
-### 2.1 Unitatea de bază: „scena”
-Fiecare concept = o scenă de 8-12 minute, cu aceiași pași, ca studentul să recunoască ritmul:
+### 2.1 Unitatea de bază: „capitolul”
+Fiecare concept = un capitol de 8-12 minute, cu aceiași pași, ca studentul să recunoască ritmul:
 
 | Pas | Ce se întâmplă | Cine vorbește |
 |---|---|---|
@@ -49,17 +49,17 @@ Fiecare concept = o scenă de 8-12 minute, cu aceiași pași, ca studentul să r
 | **Prezice** | întrebare orală înainte de rulare („câte componente păstrăm?”) | studenții |
 | **Cere agentului** | un prompt scris de studenți, cu schelet (date, concept, cerință, constrângeri, verificare) | studenții și agentul |
 | **Verifică** | valori de control și o listă de 2-3 verificări | studenții |
-| **Capcană** (la unele scene) | un lucru pe care un agent îl greșește plauzibil | agentul, apoi tu |
+| **Capcană** (la unele capitole) | un lucru pe care un agent îl greșește plauzibil | agentul, apoi tu |
 | **Ce spunem clientului** | o propoziție cu cifre, în limbaj de manager | studenții |
 
 ### 2.2 Cum arată în notebook
 - Un singur tip de celulă markdown pentru fiecare pas, cu etichetă fixă (**Concept**, **Prezice**, **Cere agentului**, **Verifică**, **Capcană**, **Pentru client**), ca atât studentul, cât și agentul să știe unde se află.
 - **Tot textul rămâne în notebook** (decizia D4). Formulele sunt în LaTeX, nu în imagini (rezolvă și formulele lipsă la silhouette și Davies-Bouldin).
-- Ca textul să nu devină din nou un perete: în corpul scenelor intră doar „Conceptul” (2-3 propoziții). Definițiile complete merg într-o secțiune **Referință** la finalul notebook-ului, sub un titlu care se poate plia în Colab și în VS Code.
+- Ca textul să nu devină din nou un perete: în corpul capitolelor intră doar „Conceptul” (2-3 propoziții). Definițiile complete merg într-o secțiune **Referință** la finalul notebook-ului, sub un titlu care se poate plia în Colab și în VS Code.
 - **Cod nerulat:** notebook-ul se livrează cu celulele de cod **fără ieșiri**, ca studenții să pună mâna să le ruleze, chiar dacă agentul le completează (decizia D9). Eu verific înainte că notebook-ul rulează de la zero, pe o copie, cu timp și memorie măsurate.
 
-### 2.3 Agentul ca partener de scenă (independent de furnizor)
-Studenții lucrează cu Gemini în Colab, cu agenți din VS Code și din Antigravity, în funcție de ce au gratuit și de cât le-a mai rămas din tokeni. De aceea scenariul **nu se leagă de comenzile unui anumit agent** (fără „/scena”):
+### 2.3 Agentul ca partener de capitol (independent de furnizor)
+Studenții lucrează cu Gemini în Colab, cu agenți din VS Code și din Antigravity, în funcție de ce au gratuit și de cât le-a mai rămas din tokeni. De aceea scenariul **nu se leagă de comenzile unui anumit agent** (fără „/capitol”):
 - **Scenariul stă în notebook**, ca text pe care orice agent îl poate citi. Un student care a lipsit de la curs poate rula notebook-ul singur, cu agentul lui.
 - **Un „primer” de copiat** pe prima celulă a fiecărui notebook: un paragraf pe care studentul îl lipește agentului la început (ca „primul mesaj” din ghidul AI). Primerul spune: modulul, firul lecției, regulile datelor, modul tutore (întreabă înainte să răspundă, nu rezolvă în locul studentului) și cum să verifice valorile de control.
 - **Modurile agentului** sunt cerute prin text, nu prin configurări: *executant* (demonstrație), *tutore* (teme), *recenzent* (verifică munca studentului: scalare, scurgeri, coloane de ID).
@@ -74,7 +74,7 @@ Recomand **capcane în date**, nu agent care greșește la comandă:
 ### 2.5 Contextul care trece de la un agent la altul
 Agenții gratuiți se opresc când se termină tokenii. Studentul trebuie să poată continua cu alt agent fără să o ia de la zero. Propunere: **Jurnalul AI devine și „carnetul de predare”**:
 - la finalul notebook-ului, o celulă markdown „Jurnal de sesiune”, care rămâne în copia studentului din Drive sau din VS Code (în Colab sistemul de fișiere nu persistă, o celulă da);
-- are câmpuri fixe: scena la care am ajuns; ce am decis și de ce; valorile de control verificate; greșelile găsite la agent; întrebarea deschisă;
+- are câmpuri fixe: capitolul la care am ajuns; ce am decis și de ce; valorile de control verificate; greșelile găsite la agent; întrebarea deschisă;
 - un prompt scurt îl completează: „Rezumă sesiunea în formatul de mai jos”;
 - agentul următor primește primerul plus jurnalul și continuă.
 Obiceiul se învață o singură dată (modulul 1 / ghidul AI) și se refolosește în toate modulele.
@@ -83,7 +83,7 @@ Obiceiul se învață o singură dată (modulul 1 / ghidul AI) și se refoloseș
 
 Fir roșu: *„Ce tipuri de angajați avem?”* (HR), apoi *„Ce se cumpără împreună?”* (magazin). Durata este indicativă; împărțirea curs/seminar este punctul deschis 5.
 
-| # | Scena | Ce vedem live | Ce trebuie să știe studentul ca să nu fie păcălit | Valoare de control |
+| # | Capitolul | Ce vedem live | Ce trebuie să știe studentul ca să nu fie păcălit | Valoare de control |
 |---|---|---|---|---|
 | 0 | Cererea vagă | „grupează angajații” către agent, fără să ghidăm | de ce rezultatul e prost: constante, ID, scări diferite | rezultatul brut e inutil |
 | 1 | Distanță și scalare | distanța dintre doi angajați cu și fără scalare (`Age`, `MonthlyIncome`) | scalarea schimbă cine e „aproape” | calcul manual |
@@ -93,14 +93,14 @@ Fir roșu: *„Ce tipuri de angajați avem?”* (HR), apoi *„Ce se cumpără �
 | 5 | Segmente și decizie | cele trei segmente (veterani, „săritori”, juniori) și plecarea pe segment | un segment descris nu e o predicție; atenție la concluzii | Attrition 10,7%-19,4% |
 | 6 | Reguli de asociere | pe 5 coșuri la mână, apoi `mlxtend` pe `OnlineRetail` | suport, încredere, lift; interpretarea corectă a lift-ului | 3,33 din exemplul burger-ketchup |
 | 7 | Capcanele coșului | agentul scoate `POSTAGE`, anulări, variante de produs | ce e un „produs” și ce e zgomot | 9.288 de facturi `C` |
-| 8 | Recomandări (ultima scenă, de sărit dacă nu mai avem timp) | SVD și precision@k față de „cele mai populare” | de ce comparăm cu o referință simplă | din `extra-03-asociere` |
+| 8 | Recomandări (ultimul capitol, de sărit dacă nu mai avem timp) | SVD și precision@k față de „cele mai populare” | de ce comparăm cu o referință simplă | din `extra-03-asociere` |
 | 9 | Ce spunem clientului | 3 propoziții cu cifre calculate în notebook | nu promitem mai mult decât spun datele | – |
 
-**Buget de timp (2 h):** scenele 0-5 (~75 min), scenele 6-7 (~35 min), scena 9 (~10 min). Scena 8 (recomandări, ~15 min) rămâne în curs ca ultima scenă (D11): dacă nu mai e timp, o parcurg studenții singuri.
+**Buget de timp (2 h):** capitolele 0-5 (~75 min), capitolele 6-7 (~35 min), capitolul 9 (~10 min). Capitolul 8 (recomandări, ~15 min) rămâne în curs ca ultimul capitol (D11): dacă nu mai e timp, îl parcurg studenții singuri.
 
 **Buget de memorie (8 GB RAM):** `OnlineRetail` are 110 MB în pandas, deci e în regulă. Regulile de asociere se fac pe **o singură țară (nu Marea Britanie)**, cu suport minim ≥ 0,05 și matricea de coșuri booleană; tabelele `in_time`/`out_time` din `lab-set2` nu se încarcă.
 
-Seminarul reia aceleași scene pe alt set (sau pe setul proiectului), fără demonstrația din fața clasei, cu Jurnal AI completat (decizia D5).
+Seminarul reia aceleași capitole pe alt set (sau pe setul proiectului), fără demonstrația din fața clasei, cu Jurnal AI completat (decizia D5).
 
 ## 4. Decizii luate
 
@@ -112,12 +112,12 @@ Seminarul reia aceleași scene pe alt set (sau pe setul proiectului), fără dem
 | D4 | Tot textul rămâne în notebook-uri, cu formule în LaTeX. Slide-urile rămân opționale pentru teorie. | 2026-10-25 |
 | D5 | Cursul prezintă conceptele pe viu (proiectat, în sală sau online); seminarul le repetă pentru fixare. | 2026-10-25 |
 | D6 | Capcanele sunt în date, nu într-un agent instruit să greșească. | 2026-10-25 |
-| D7 | Colab este mediul recomandat (mulți studenți au acces doar la 8 GB RAM); fiecare scenă trebuie să încapă în această memorie. | 2026-10-25 |
+| D7 | Colab este mediul recomandat (mulți studenți au acces doar la 8 GB RAM); fiecare capitol trebuie să încapă în această memorie. | 2026-10-25 |
 | D8 | Cine lipsește de la curs poate rula singur scenariul din notebook, cu agentul lui. | 2026-10-25 |
 | D9 | Codul se livrează complet **nerulat** (fără ieșiri); markdown-ul e deja randat. Verificarea că totul rulează se face pe o copie, înainte de livrare. | 2026-10-25 |
 | D10 | Jurnalul AI și carnetul de predare între agenți se unesc într-un „Jurnal de sesiune” cu format fix. Dacă e nevoie, refactorizăm și modulele 1 și 2 (`ghid-programare-asistata-ai.md`, `seminar-01`). | 2026-10-25 |
-| D11 | Recomandările rămân în curs, ca ultima scenă (scena 8). Ce nu se parcurge în sală rămâne de parcurs de studenți, conform înțelegerii cu ei. Scena 8 trebuie deci să poată fi sărită fără să strice restul. | 2026-10-25 |
-| D12 | Scena 8 (recomandări) se scrie ca secțiune ghidată, de parcurs singur, nu în formatul complet de scenă. | 2026-10-25 |
+| D11 | Recomandările rămân în curs, ca ultimul capitol (capitolul 8). Ce nu se parcurge în sală rămâne de parcurs de studenți, conform înțelegerii cu ei. Capitolul 8 trebuie deci să poată fi sărită fără să strice restul. | 2026-10-25 |
+| D12 | Capitolul 8 (recomandări) se scrie ca secțiune ghidată, de parcurs singur, nu în formatul complet de capitol. | 2026-10-25 |
 | D13 | Testul în cele trei medii (`primer-si-teste.md`) nu se face acum: se presupune că agenții respectă primerul. Riscul rămâne **netestat**; se verifică la prima utilizare la curs și se ajustează primerul. Formatul Jurnalului a fost inclus în primer, ca să poată fi lipit dintr-o bucată. | 2026-10-25 |
 
 ## 5. Puncte deschise
@@ -135,18 +135,18 @@ Punctele 1-6 sunt rezolvate prin deciziile D3-D8.
 
 1. Fixăm punctele deschise din ciclul 2.
 2. Primerul și formatul „Jurnal de sesiune” sunt scrise (`primer-si-teste.md`); se testează în cele trei medii și se ajustează.
-3. **Făcut:** `curs-03a` refăcut în scenele 0-5, cu etichetele din 2.2, formule în LaTeX și valorile de control din secțiunea 3.
-4. **Făcut:** `curs-03b` refăcut în scenele 6-7 (suport/încredere/lift la mână pe 5 coșuri, apoi `mlxtend` pe o țară) și recomandările ca scena 8 (SVD și `precision@k`, din `extra-03-asociere`).
+3. **Făcut:** `curs-03a` refăcut în capitolele 0-5, cu etichetele din 2.2, formule în LaTeX și valorile de control din secțiunea 3.
+4. **Făcut:** `curs-03b` refăcut în capitolele 6-7 (suport/încredere/lift la mână pe 5 coșuri, apoi `mlxtend` pe o țară) și recomandările ca capitolul 8 (SVD și `precision@k`, din `extra-03-asociere`).
 5. Refacem seminarul, tema și README-ul (puntea unică, Jurnal AI corect).
 6. Curățenie: imagini locale, `extra-*`, `de_mutat_in_modulele_3_5.pptx`.
 7. Rulăm de la zero cu `.venv` (Jupyter, scikit-learn 1.9.1, pandas 3.1 sunt instalate), măsurăm timpul și memoria, apoi livrăm notebook-urile fără ieșiri.
 8. Extragem șablonul și îl propunem pentru modulele 4-6; actualizăm `docs/sablon-modul.md` și, la nevoie, modulele 1-2.
 
 ### Stare după ciclul 4
-- `curs-03a-pca-clusterizare.ipynb` este refăcut: 33 de celule (11 de cod, fără ieșiri), scenele 0-5, „Ce îi spunem clientului”, Referință (formule în LaTeX), punte, Jurnal de sesiune. Verificat: rulează de la zero în ≈15 s, fără erori, cu mediul local (`.venv`); toate valorile de control din text corespund ieșirilor.
+- `curs-03a-pca-clusterizare.ipynb` este refăcut: 33 de celule (11 de cod, fără ieșiri), capitolele 0-5, „Ce îi spunem clientului”, Referință (formule în LaTeX), punte, Jurnal de sesiune. Verificat: rulează de la zero în ≈15 s, fără erori, cu mediul local (`.venv`); toate valorile de control din text corespund ieșirilor.
 - Versiunea veche rămâne în istoricul Git (`git show HEAD:cursuri/03-invatare-nesupervizata/curs-03a-pca-clusterizare.ipynb`).
 - **Mediul detectat (ciclul 5):** celula „Configurare curs” din modulele 1-3 distinge Colab de local. Local găsește rădăcina repository-ului (merge și dacă kernelul pornește din altă folder), trece în folderul modulului, avertizează despre pachete lipsă și despre lipsa internetului (imagini). Verificat: `curs-03a` rulează pornit din rădăcina repository-ului și din folderul modulului. Modulele 4-7 au încă vechea celulă.
-- **`curs-03b` refăcut (ciclul 6):** 19 celule, scenele 6 (suport, încredere, lift pe 6 coșuri, la mână), 7 (Apriori pe `France`, înainte și după curățare), 8 (recomandări ghidate, `TruncatedSVD` și `precision@k` față de popularitate), „Pentru client”, Referință, **puntea curs → seminar** (unică, pentru tot modulul; `curs-03a` se încheie cu „Ce urmează”) și Jurnal de sesiune. Rulează în ≈27 s; valorile de control din text coincid cu ieșirile. LightFM a fost scos. Cifre-cheie: din 203 reguli brute, 152 conțin `POSTAGE`; după curățare rămân 51; SVD cu 30 de factori bate popularitatea (p@5 0,208 față de 0,128), iar cu 100 de factori scade (0,161).
+- **`curs-03b` refăcut (ciclul 6):** 19 celule, capitolele 6 (suport, încredere, lift pe 6 coșuri, la mână), 7 (Apriori pe `France`, înainte și după curățare), 8 (recomandări ghidate, `TruncatedSVD` și `precision@k` față de popularitate), „Pentru client”, Referință, **puntea curs → seminar** (unică, pentru tot modulul; `curs-03a` se încheie cu „Ce urmează”) și Jurnal de sesiune. Rulează în ≈27 s; valorile de control din text coincid cu ieșirile. LightFM a fost scos. Cifre-cheie: din 203 reguli brute, 152 conțin `POSTAGE`; după curățare rămân 51; SVD cu 30 de factori bate popularitatea (p@5 0,208 față de 0,128), iar cu 100 de factori scade (0,161).
 - **Rămân:** seminar, temă, README al modulului (puntea trebuie să fie identică cu cea din `curs-03b`), `extra-03-*` (descărcarea de pe internet, Apriori pe 58 de „tranzacții”), imaginile nefolosite din `imagini/`, ștergerea `de_mutat_in_modulele_3_5.pptx`.
 - Neverificat: comportamentul agenților din cele trei medii (D13) și afișarea în Colab.
 
