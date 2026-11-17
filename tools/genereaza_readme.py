@@ -25,7 +25,7 @@ TITLURI = {
 }
 # Doar modulele finalizate apar în tabel (și sunt urmărite de git; vezi .gitignore).
 # Când un modul este gata, adaugă-l aici și scoate-l din .gitignore.
-FINALIZATE = {"01-date-intrebari-ai", "02-explorare-vizualizare", "03-invatare-nesupervizata"}
+FINALIZATE = {"01-date-intrebari-ai", "02-explorare-vizualizare", "03-invatare-nesupervizata", "04-regresie", "05-clasificare"}
 BADGE = "https://colab.research.google.com/assets/colab-badge.svg"
 
 
