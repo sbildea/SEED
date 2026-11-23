@@ -32,8 +32,4 @@ openai_api.txt
 cursuri/02-explorare-vizualizare/dialog_imbunatatiri.md
 cursuri/02-explorare-vizualizare/de_mutat_in_modulele_3_5.pptx
 
-# module nefinalizate: ignorate până la finalizarea refactorizării
-# (când un modul e gata: scoate-l de aici și adaugă-l în FINALIZATE din tools/genereaza_readme.py)
-cursuri/06-evaluare-optimizare/
-cursuri/07-proiect/
 NOTE-sesiune-2026-10-19.md
